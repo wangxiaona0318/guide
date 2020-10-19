@@ -38,9 +38,9 @@
                 <img src="../assets/header/py_sky_market.png" alt="">
             </div> -->
             <div class="py_date_time">
-                <div class="py_time">14:47</div>
+                <div class="py_time">{{time}}</div>
                 <div class="py_date">
-                    <div class="py_date_top">2020.10.18</div>
+                    <div class="py_date_top">{{date}}</div>
                     <div class="py_date_bottom">{{week}}</div>
                 </div>
             </div>
@@ -58,10 +58,12 @@ export default {
         }
     },
     mounted() {
-        // setInterval(() => {
-        //     let date = new Date()
-        //     this.week = moment(date).format('dddd')
-        // }, 1000)
+        setInterval(() => {
+            var day = new Date();
+            this.week = this.$moment(day).format('dddd');
+            this.date = this.$moment(day).format('YYYY.MM.DD');
+            this.time = this.$moment(day).format('HH:mm');
+        }, 1000)
     }
 }
 </script>
