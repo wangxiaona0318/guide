@@ -44,7 +44,6 @@ export default {
             floor: [0, 1, 2, 3, 4],
             floorIndex: 0,
             index: 0,
-            total: '',
             page: Math.ceil(floorData[0].data.length/30)
         }
     },
@@ -64,7 +63,7 @@ export default {
             }
             this.index++
             let data = floorData[this.floorIndex] && floorData[this.floorIndex].data ? floorData[this.floorIndex].data : []
-            this.data = data.slice(30, (this.index+1)*30)
+            this.data = data.slice(30*this.index, (this.index+1)*30)
         },
         leftHandle() {
             if(this.index === 0) {

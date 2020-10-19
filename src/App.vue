@@ -127,4 +127,8 @@ a{
         margin: 25px 0px;
     }
 }
+.forbiden{
+    opacity: .2;
+    cursor: not-allowed!important;
+}
 </style>

@@ -1,15 +1,21 @@
 <template>
-    <div>
+    <div class="restaurant-cotent">
         <div class="tab">
             <div @click="tabChange(v, k)" :class="{active: index === k}" class="tab-item" v-for="(v, k) in tab" :key="k">{{v.name}}</div>
         </div>
         <div class="tab-body">
+            <div class="wrap-img" @click="leftHandle" v-if="data.length" :class="{forbiden: pageNumber === 0}">
+                <img src="../assets/arrows/left.png" alt="">
+            </div>
             <div class="tab-detail">
                 <router-link v-for="(v, k) in data" :key="k" class="rh-detail" :to="`/restaurant-hotel-detail?id=${v.id}`">
                     <img :src="v.cvoer_path" alt="">
                     <div class="name">{{v.name}}</div>
                     <div class="address">{{v.address}}</div>
                 </router-link>
+            </div>
+            <div class="wrap-img right" v-if="data.length" @click="rightHandle" :class="{forbiden: pageNumber+1 === page}">
+                <img src="../assets/arrows/right.png" alt="">
             </div>
         </div>
     </div>
@@ -28,20 +34,43 @@ export default {
             index: 0,
             datas: [hotel, rest],
             data: [],
+            page: Math.ceil(hotel.data.length/8),
+            pageSize: 8,
+            pageNumber: 0,
         }
     },
     mounted() {
-        this.data = this.datas[this.index].data
+        this.data = this.datas[this.index].data.slice(0, this.pageSize)
+        console.log(this.index, this.page)
     },
     methods: {
         tabChange(v, k){
             this.index = k
             this.data = this.datas[this.index].data
         },
+        rightHandle() {
+            if(this.pageNumber + 1 === this.page) {
+                return
+            }
+            this.pageNumber++
+            this.data = this.datas[this.index].data.slice(this.pageSize*this.pageNumber, (this.pageNumber+1)*this.pageSize)
+        },
+        leftHandle() {
+            if(this.pageNumber === 0) {
+                return
+            }
+            this.pageNumber--
+            this.data = this.datas[this.index].data.slice(this.pageNumber*this.pageSize, (this.pageNumber+1)*this.pageSize)
+        }
     }
 }
 </script>
 <style scoped lang="less">
+.restaurant-cotent{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
     .tab-body{
         margin-top: 30px;
         display: -webkit-box;
@@ -49,17 +78,32 @@ export default {
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
+        -ms-flex-direction: row;
+        flex-direction: row;
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        position: relative;
+        justify-content: center;
+        flex: 1;
+        
         .tab-detail{
             margin-top: -33px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             align-items: flex-start;
+            justify-content: center;
+        }
+        .wrap-img{
+            position: absolute;
+            left: 24px;
+            top: 50%;
+            cursor: pointer;
+            &.right{
+                right: 24px;
+                left: auto;
+            }
         }
         .rh-detail{
             margin: 31px 33px 0 0;

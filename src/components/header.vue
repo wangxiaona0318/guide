@@ -3,8 +3,9 @@
         <div class="left-part">
             <div class="py_logo"></div>
             <div class="py_name">
-                <div class="py_cn_name"></div>
-                <div class="py_en_name"></div>
+                世贸大厦
+                <!-- <div class="py_cn_name"></div>
+                <div class="py_en_name">世贸大厦</div> -->
             </div>
         </div>
         <div class="middle-part"></div>
@@ -21,7 +22,9 @@
                 </div>
                 <div>扫码关注毛衫城公众号</div>
             </div>
-            <div class="py_sky_market"></div>
+            <div class="py_sky_market">
+                <img src="../assets/header/py_sky_market.png" alt="">
+            </div>
             <div class="py_date_time">
                 <div class="py_time">14:47</div>
                 <div class="py_date">
@@ -60,7 +63,7 @@
             -ms-flex-align: center;
             align-items: center;
             .py_logo{
-                width: 120px;
+                width: 125px;
                 height: 125px;
                 background-size: cover;
                 background-size: 100% 100%;
@@ -134,14 +137,18 @@
                 }
             }
             .py_sky_market{
-                width: 369px;
-                height: 100px;
-                background-size: cover;
-                background-size: 100% 100%;
-                background-image: url(../assets/header/py_sky_market.png);
-                background-repeat: no-repeat;
+                width: 100px;
+                height: auto;
+                // background-size: cover;
+                // background-size: 100% 100%;
+                // background-image: url(../assets/header/py_sky_market.png);
+                // background-repeat: no-repeat;
                 margin-right: 50px;
                 mix-blend-mode: multiply;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
             }
             .py_date_time{
                 display: -webkit-box;

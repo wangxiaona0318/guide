@@ -63,7 +63,7 @@ export default {
 .content-body{
     width: 1388px;
     height: 726px;
-    background: #fff;
+    /* background: #fff; */
     border-radius: 10px;
     flex: 1;
     /* padding: 0 30px; */
