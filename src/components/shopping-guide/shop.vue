@@ -52,7 +52,7 @@ export default {
     methods: {
         imgHandler(k) {
             this.index = k
-            this.data = floorData[k].data.slice(0, 30)
+            this.data = floorData[k].data ? floorData[k].data.slice(0, 30) : []
         }
     }
 }

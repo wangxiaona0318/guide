@@ -21,7 +21,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    redirect: '/index',
+    redirect: '/shopping-guide',
   },
   {
     path: '/index',
