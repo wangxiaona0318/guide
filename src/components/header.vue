@@ -3,7 +3,7 @@
         <div class="left-part">
             <div class="py_logo"></div>
             <div class="py_name">
-                世贸大厦
+                <!-- 世贸大厦 -->
                 <!-- <div class="py_cn_name"></div>
                 <div class="py_en_name">世贸大厦</div> -->
             </div>
