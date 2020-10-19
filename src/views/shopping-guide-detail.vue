@@ -78,7 +78,6 @@ export default {
         let shop = this.$route.query.shop
         let data = floorData[floor].data
         this.data = floorData[floor].data.filter(v=>v.id==shop)[0]
-        console.log(this.data)
     }
 }
 </script>

@@ -29,7 +29,6 @@ export default {
     },
     mounted() {
         this.data = this.data.slice(0, this.pageSize)
-        console.log(this.index, this.page)
     },
     methods: {
         rightHandle() {

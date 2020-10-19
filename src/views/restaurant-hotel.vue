@@ -41,7 +41,6 @@ export default {
     },
     mounted() {
         this.data = this.datas[this.index].data.slice(0, this.pageSize)
-        console.log(this.index, this.page)
     },
     methods: {
         tabChange(v, k){

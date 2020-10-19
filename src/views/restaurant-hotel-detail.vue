@@ -20,7 +20,6 @@ export default {
     mounted() {
         let id = this.$route.query.id
         this.data = data[id]
-        console.log(this.data)
     }
 }
 </script>

@@ -88,5 +88,6 @@ export default {
 }
 .guide-storey{
     margin-top: 20px;
+    height: 600px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div class="information">
-        <div v-html="content"></div>
+        <pre v-html="content" class="text-content"></pre>
     </div>
 </template>
 <script>
@@ -32,7 +32,14 @@ export default {
     overflow: auto;
     background-color: white;
     border-radius: 10px;
-    padding: 80px;
+    padding: 0 80px;
     box-sizing: border-box;
+}
+.text-content{
+    font-size: 19px;
+    text-indent: 37px;
+    line-height: 39px;
+    word-break: break-all;
+    white-space: break-spaces;
 }
 </style>
