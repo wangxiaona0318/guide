@@ -64,6 +64,8 @@ export default {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        border: 1px solid #CE292C;
+        border-radius: 24px;
         img{
             max-width: 1089px;
             max-height: 666px;

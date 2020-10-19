@@ -41,6 +41,8 @@ export default {
     height: 100%;
     box-sizing: border-box;
     display: flex;
+    border: 1px solid #CE292C;
+    border-radius: 24px;
     .gs-guide{
         padding-top: 170px;
         width: 617px;

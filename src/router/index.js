@@ -33,7 +33,7 @@ const routes = [
         name: 'shoppingGuide',
         component: shoppingGuide,
         meta: {
-          top: 108
+          // top: 108
         }
       },
       {
