@@ -1,7 +1,7 @@
 <template>
     <div class="guide-body">
         <div class="guide-content">
-            <div class="wrap-img" @click="leftHandle" v-if="data.length" :style="{opacity: index === 0 ? '.2' : 1}">
+            <div class="wrap-img" @click="leftHandle" v-if="data.length" :class="{forbiden: index === 0}">
                 <img src="../../assets/arrows/left.png" alt="">
             </div>
             <div class="wrap">
@@ -12,7 +12,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="wrap-img" v-if="data.length" @click="rightHandle" :style="{opacity: index+1 == page ? '.2' : 1}">
+            <div class="wrap-img right" v-if="data.length" @click="rightHandle" :class="{forbiden: index+1 == page}">
                 <img src="../../assets/arrows/right.png" alt="">
             </div>
             <!-- <el-pagination
@@ -86,15 +86,18 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 60px 0;
-    border: 1px solid #CE292C;
-    border-radius: 24px;
+    padding: 10px 0;
     box-sizing: border-box;
 }
 .wrap-img{
-    width: 73px;
-    text-align: center;
+    position: absolute;
+    left: 24px;
+    top: 50%;
     cursor: pointer;
+    &.right{
+        right: 24px;
+        left: auto;
+    }
 }
 .wrap{
     width: 880px;
@@ -117,6 +120,8 @@ export default {
     -ms-flex-line-pack: start;
     align-content: flex-start;
     align-items: center;
+    justify-content: center;
+    position: relative;
     .guide-item{
         padding-top: 13px;
         width: 164px;

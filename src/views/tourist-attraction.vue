@@ -66,7 +66,7 @@ export default {
     }
 }
 .tab-detail{
-    margin: -31px 0 0 -33px;
+    margin: -47px 0 0 -33px;
     padding: 15px;
     width: 1360px;
     height: 630px;

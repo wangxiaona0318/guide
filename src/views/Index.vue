@@ -37,7 +37,7 @@ export default {
     background-size: 100% 100%; */
     background-image: url(../assets/home_bg.png);
     background-repeat: no-repeat;
-    padding: 75px 120px 100px 120px;
+    padding: 30px 120px 100px 120px;
     box-sizing: border-box;
 }
 .body{

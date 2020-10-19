@@ -20,7 +20,7 @@
                 <div>
                     <img src="../assets/header/py_qr.jpg" class="pyqr-img">
                 </div>
-                <div>扫码关注毛衫城公众号</div>
+                <div>扫码关注世贸大厦公众号</div>
             </div>
             <div class="py_sky_market">
                 <img src="../assets/header/py_sky_market.png" alt="">
@@ -63,8 +63,8 @@
             -ms-flex-align: center;
             align-items: center;
             .py_logo{
-                width: 125px;
-                height: 125px;
+                width: 200px;
+                height: 200px;
                 background-size: cover;
                 background-size: 100% 100%;
                 background-image: url(../assets/header/py_logo.png);
@@ -132,13 +132,13 @@
                     display: flex;
                 }
                 .pyqr-img, .szjd-img{
-                    width: 100px;
-                    height: 100px;
+                    width: 150px;
+                    height: 150px;
                 }
             }
             .py_sky_market{
-                width: 100px;
-                height: auto;
+                width: 128px;
+                height: 165px;
                 // background-size: cover;
                 // background-size: 100% 100%;
                 // background-image: url(../assets/header/py_sky_market.png);
