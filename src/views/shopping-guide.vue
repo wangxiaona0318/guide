@@ -40,7 +40,7 @@ export default {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    -webkit-box-shadow: 2px 5px 12px #ECECEC;
-    box-shadow: 2px 5px 12px #ECECEC;
+    // -webkit-box-shadow: 2px 5px 12px #ECECEC;
+    // box-shadow: 2px 5px 12px #ECECEC;
 }
 </style>

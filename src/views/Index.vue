@@ -33,8 +33,8 @@ export default {
 .mod-home{
     height: 1080px;
     width: 1920px;
-    background-size: cover;
-    background-size: 100% 100%;
+    /* background-size: cover;
+    background-size: 100% 100%; */
     background-image: url(../assets/home_bg.png);
     background-repeat: no-repeat;
     padding: 75px 120px 100px 120px;
@@ -58,12 +58,14 @@ export default {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+    width: 100%;
 }
 .content-body{
     width: 1388px;
     height: 726px;
     background: #fff;
     border-radius: 10px;
+    flex: 1;
     /* padding: 0 30px; */
     /* width: 1082px;
     height: 677px;

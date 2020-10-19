@@ -1,6 +1,9 @@
 <template>
     <div class="guide-body">
         <div class="guide-content">
+            <div class="wrap-img">
+                <img src="../../assets/arrows/left.png" alt="">
+            </div>
             <div class="wrap">
                 <router-link v-for="(v, k) in data" :key="k" :to="`/shopping-guide-detail?floor=${index}&shop=${v.id}`">
                     <div class="guide-item">
@@ -9,11 +12,14 @@
                     </div>
                 </router-link>
             </div>
-            <el-pagination
+            <div class="wrap-img">
+                <img src="../../assets/arrows/right.png" alt="">
+            </div>
+            <!-- <el-pagination
                 layout="prev, pager, next"
                 :page-size="36"
                 :total="50">
-            </el-pagination>
+            </el-pagination> -->
         </div>
         <div class="guide-storey">
             <div class="storey-content">
@@ -40,16 +46,20 @@ export default {
             total: '',
         }
     },
+    mounted() {
+        this.data = this.data.slice(0, 30)
+    },
     methods: {
         imgHandler(k) {
             this.index = k
-            this.data = floorData[k].data
+            this.data = floorData[k].data.slice(0, 30)
         }
     }
 }
 </script>
 <style scoped lang="less">
 .guide-body{
+    margin-top: 22px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -57,9 +67,17 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 20px;
+    padding: 87px 0;
+    border: 1px solid #CE292C;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+.wrap-img{
+    width: 73px;
+    text-align: center;
 }
 .wrap{
+    width: 880px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -78,6 +96,7 @@ export default {
     flex-wrap: wrap;
     -ms-flex-line-pack: start;
     align-content: flex-start;
+    align-items: center;
     .guide-item{
         padding-top: 13px;
         width: 164px;

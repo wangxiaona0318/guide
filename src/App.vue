@@ -57,7 +57,7 @@ a{
 }
 // 分页
 .el-pagination .btn-next .el-icon, .el-pagination .btn-prev .el-icon, .el-pager li{
-  font-size: 20px;
+  font-size: 20px!important;
 }
 .el-pagination{
     display: flex;

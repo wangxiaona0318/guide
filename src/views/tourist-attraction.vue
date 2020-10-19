@@ -41,6 +41,8 @@ export default {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    margin-top: -22px;
+    justify-content: center;
     .rh-detail{
         margin: 31px 33px 0 0;
         width: 266px;

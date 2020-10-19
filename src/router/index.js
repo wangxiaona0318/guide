@@ -32,6 +32,9 @@ const routes = [
         path: '/shopping-guide',
         name: 'shoppingGuide',
         component: shoppingGuide,
+        meta: {
+          top: 108
+        }
       },
       {
         path: '/shopping-guide-detail',

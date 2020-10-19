@@ -1,5 +1,5 @@
 <template>
-    <div class="navigation">
+    <div class="navigation" :style="{marginTop: $route.meta.top ? $route.meta.top + 'px' : ''}">
         <div class="navigation-bar">
             <router-link
                 :class="{active: k===index}"
@@ -57,6 +57,7 @@ export default {
             background: #FFFFFF;
             border-radius: 40px;
             border: 1px solid #CE292C;
+            box-sizing: border-box;
             &:not(:last-child) {
                 margin-bottom: 38px;
             }
