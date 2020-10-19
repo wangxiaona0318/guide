@@ -33,6 +33,8 @@ export default {
         padding: 0 30px;
         position: relative;
         height: 100%;
+        border: 1px solid #CE292C;
+        border-radius: 24px;
     }
     .list{
         padding-top: 30px;

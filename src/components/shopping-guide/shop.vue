@@ -1,7 +1,7 @@
 <template>
     <div class="guide-body">
         <div class="guide-content">
-            <div class="wrap-img">
+            <div class="wrap-img" @click="leftHandle" v-if="data.length" :style="{opacity: index === 0 ? '.2' : 1}">
                 <img src="../../assets/arrows/left.png" alt="">
             </div>
             <div class="wrap">
@@ -12,7 +12,7 @@
                     </div>
                 </router-link>
             </div>
-            <div class="wrap-img">
+            <div class="wrap-img" v-if="data.length" @click="rightHandle" :style="{opacity: index+1 == page ? '.2' : 1}">
                 <img src="../../assets/arrows/right.png" alt="">
             </div>
             <!-- <el-pagination
@@ -24,7 +24,7 @@
         <div class="guide-storey">
             <div class="storey-content">
                 <div
-                    @click="imgHandler(k)"
+                    @click="changeFloor(k)"
                     class="storey-item"
                     :class="{active: index === k}"
                     v-for="(v, k) in floor"
@@ -42,17 +42,37 @@ export default {
         return {
             data: floorData[0].data,
             floor: [0, 1, 2, 3, 4],
+            floorIndex: 0,
             index: 0,
             total: '',
+            page: Math.ceil(floorData[0].data.length/30)
         }
     },
     mounted() {
         this.data = this.data.slice(0, 30)
     },
     methods: {
-        imgHandler(k) {
-            this.index = k
-            this.data = floorData[k].data ? floorData[k].data.slice(0, 30) : []
+        changeFloor(k) {
+            this.floorIndex = k
+            let data = floorData[k] && floorData[k].data ? floorData[k].data : []
+            this.data = data.slice(0, 30)
+            this.page = Math.ceil(data.length/30)
+        },
+        rightHandle() {
+            if(this.index + 1 === this.page) {
+                return
+            }
+            this.index++
+            let data = floorData[this.floorIndex] && floorData[this.floorIndex].data ? floorData[this.floorIndex].data : []
+            this.data = data.slice(30, (this.index+1)*30)
+        },
+        leftHandle() {
+            if(this.index === 0) {
+                return
+            }
+            this.index--
+            let data = floorData[this.floorIndex] && floorData[this.floorIndex].data ? floorData[this.floorIndex].data : []
+            this.data = data.slice((this.index)*30, (this.index+1)*30)
         }
     }
 }
@@ -75,6 +95,7 @@ export default {
 .wrap-img{
     width: 73px;
     text-align: center;
+    cursor: pointer;
 }
 .wrap{
     width: 880px;
