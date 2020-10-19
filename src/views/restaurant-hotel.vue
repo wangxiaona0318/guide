@@ -5,16 +5,18 @@
         </div>
         <div class="tab-body">
             <div class="tab-detail">
-                <router-link class="rh-detail" to="/restaurant-hotel-detail">
-                    <img src="http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0911/user_1_1599818458_6ktmoqBhFk.png" alt="">
-                    <div class="name">炉哩烧 碳烤羊腿·烧烤（濮院6号店）</div>
-                    <div class="address">桐乡市濮院齐宏路317号</div>
+                <router-link v-for="(v, k) in data" :key="k" class="rh-detail" :to="`/restaurant-hotel-detail?id=${v.id}`">
+                    <img :src="v.cvoer_path" alt="">
+                    <div class="name">{{v.name}}</div>
+                    <div class="address">{{v.address}}</div>
                 </router-link>
             </div>
         </div>
     </div>
 </template>
 <script>
+import hotel from '../api/restaurant-hotel.js'
+import rest from '../api/restaurant-hotel-rest.js'
 export default {
     name: 'restaurantHotel',
     data() {
@@ -24,11 +26,17 @@ export default {
                 { name: '住宿' },
             ],
             index: 0,
+            datas: [hotel, rest],
+            data: [],
         }
+    },
+    mounted() {
+        this.data = this.datas[this.index].data
     },
     methods: {
         tabChange(v, k){
             this.index = k
+            this.data = this.datas[this.index].data
         },
     }
 }
@@ -47,50 +55,46 @@ export default {
         -ms-flex-align: center;
         align-items: center;
         .tab-detail{
-            width: 1331px;
-            height: 522px;
-            display: -webkit-box;
-            display: -ms-flexbox;
+            margin-top: -33px;
             display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: row;
             flex-direction: row;
-            -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
             align-items: flex-start;
-            .rh-detail{
-                width: 312px;
-                height: 90px;
-                margin: 10px;
-                text-decoration: none;
-                img{
-                    width: 312px;
-                    height: 165px;
-                    border-radius: 10px;
-                }
+        }
+        .rh-detail{
+            margin: 31px 33px 0 0;
+            width: 266px;
+            height: 322px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.16);
+            border-radius: 6px;
+            padding: 18px 12px;
+            box-sizing: border-box;
+            img{
+                width: 242px;
+                height: 210px;
             }
             .name{
-                width: 100%;
                 color: black;
-                margin-top: 15px;
-                font-size: 25px;
+                margin-top: 12px;
+                font-size: 22px;
+                white-space: nowrap;
+                text-decoration: none;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
-                text-decoration: none;
+                line-height: 30px;
             }
             .address{
-                width: 100%;
-                margin-top: 15px;
-                font-size: 20px;
-                color: #999999;
+                margin-top: 7px;
+                font-size: 18px;
+                color: #9B9B9B;
+                white-space: nowrap;
+                text-decoration: none;
                 overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
-                text-decoration: none;
+                line-height: 25px;
             }
         }
     }

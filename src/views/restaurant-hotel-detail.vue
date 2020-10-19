@@ -1,18 +1,27 @@
 <template>
     <div class="rh-detail-body">
-        <div class="name">国贸大酒店</div>
+        <div class="name">{{data.name}}</div>
         <div class="split-line"></div>
-        <div class="address">桐乡市濮院镇工贸大道888号</div>
+        <div class="address">{{data.address}}</div>
         <div class="rh-picture">
-            <div class="picture"><img data-v-0836d46e="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599818119_dTjw4TOeQ7.jpg"></div>
-            <div class="picture"><img data-v-0836d46e="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599818119_dTjw4TOeQ7.jpg"></div>
-            <div class="picture"><img data-v-0836d46e="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599818119_dTjw4TOeQ7.jpg"></div>
+            <div class="picture" v-for="(v, k) in data.photos_path" :key="k"><img data-v-0836d46e="" :src="v"></div>
         </div>
     </div>
 </template>
 <script>
+import data from '../api/restaurant-hotel-detail.js'
 export default {
     name: 'restaurant-hotel-detail',
+    data() {
+        return {
+            data: {}
+        }
+    },
+    mounted() {
+        let id = this.$route.query.id
+        this.data = data[id]
+        console.log(this.data)
+    }
 }
 </script>
 <style lang="less" scoped>

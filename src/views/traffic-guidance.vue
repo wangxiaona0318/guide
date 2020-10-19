@@ -4,15 +4,15 @@
             <img data-v-4d06f2ee="" :src="url">
         </div>
         <div class="guide-storey">
-                <div class="storey-content">
-                    <div
-                        @click="imgHandler(k)"
-                        class="storey-item"
-                        :class="{active: index === k}"
-                        v-for="(v, k) in data"
-                        :key='k'>{{v.name}}</div>
-                </div>
+            <div class="storey-content">
+                <div
+                    @click="imgHandler(k)"
+                    class="storey-item"
+                    :class="{active: index === k}"
+                    v-for="(v, k) in data"
+                    :key='k'>{{v.name}}</div>
             </div>
+        </div>
     </div>
 </template>
 <script>
