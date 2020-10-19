@@ -18,19 +18,25 @@
             </div>
             <div class="py_qr">
                 <div>
-                    <img src="../assets/header/qr.png" class="pyqr-img">
+                    <img src="../assets/header/py_qr.jpg" class="pyqr-img">
                 </div>
-                <div>濮院指数</div>
+                <div>世贸大厦公众号</div>
             </div>
             <div class="py_qr">
                 <div>
-                    <img src="../assets/header/py_qr.jpg" class="pyqr-img">
+                    <img src="../assets/header/qr.png" class="pyqr-img">
                 </div>
-                <div>扫码关注世贸大厦公众号</div>
+                <div>空中濮院</div>
             </div>
-            <div class="py_sky_market">
+            <div class="py_qr">
+                <div>
+                    <img src="../assets/header/py_sky_market.png" class="pyqr-img">
+                </div>
+                <div>抖音</div>
+            </div>
+            <!-- <div class="py_sky_market">
                 <img src="../assets/header/py_sky_market.png" alt="">
-            </div>
+            </div> -->
             <div class="py_date_time">
                 <div class="py_time">14:47</div>
                 <div class="py_date">
@@ -41,6 +47,24 @@
         </div>
     </div>
 </template>
+<script>
+export default {
+    name: 'header',
+    data() {
+        return {
+            time: '',
+            date: '',
+            week: '',
+        }
+    },
+    mounted() {
+        // setInterval(() => {
+        //     let date = new Date()
+
+        // }, 1000)
+    }
+}
+</script>
 
 <style scoped lang="less">
     .header{
@@ -138,7 +162,7 @@
                     display: flex;
                 }
                 .pyqr-img, .szjd-img{
-                    width: 150px;
+                    width: auto;
                     height: 150px;
                 }
             }

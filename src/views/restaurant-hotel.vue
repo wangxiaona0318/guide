@@ -67,6 +67,7 @@ export default {
 </script>
 <style scoped lang="less">
 .restaurant-cotent{
+    margin-top: -80px;
     height: 100%;
     display: flex;
     flex-direction: column;
