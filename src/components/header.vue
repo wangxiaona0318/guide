@@ -41,7 +41,7 @@
                 <div class="py_time">14:47</div>
                 <div class="py_date">
                     <div class="py_date_top">2020.10.18</div>
-                    <div class="py_date_bottom">星期日 Sun.</div>
+                    <div class="py_date_bottom">{{week}}</div>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
 </template>
 <script>
 export default {
-    name: 'header',
+    // name: 'header',
     data() {
         return {
             time: '',
@@ -60,7 +60,7 @@ export default {
     mounted() {
         // setInterval(() => {
         //     let date = new Date()
-
+        //     this.week = moment(date).format('dddd')
         // }, 1000)
     }
 }
