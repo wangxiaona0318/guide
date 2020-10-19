@@ -52,6 +52,7 @@ export default {
     },
     methods: {
         changeFloor(k) {
+            this.index = 0
             this.floorIndex = k
             let data = floorData[k] && floorData[k].data ? floorData[k].data : []
             this.data = data.slice(0, 30)

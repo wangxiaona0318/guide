@@ -44,12 +44,12 @@ export default {
 <style lang="less" scoped>
 .content{
     border-radius: 10px;
-    width: 1089px;
     height: 666px;
-    margin-right: 29px;
     display: flex;
+    border: 1px solid #CE292C;
+    border-radius: 24px;
+    position: relative;
     .trafficMap{
-        width: 100%;
         height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -64,8 +64,8 @@ export default {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
-        border: 1px solid #CE292C;
-        border-radius: 24px;
+        // border: 1px solid #CE292C;
+        // border-radius: 24px;
         img{
             max-width: 1089px;
             max-height: 666px;
@@ -73,13 +73,25 @@ export default {
     }
 }
 .guide-storey .storey-content .storey-item{
-    width: 200px;
     border-radius: 5px;
     margin: 0 10px;
+    background: #fff;
+    border: 1px solid #fff;
+    &.active{
+        background: #CE292C;
+    }
 }
 .guide-storey{
-    width: 100px;
-    border-radius: 6px;
+    padding-left: 15px;
+    width: 145px;
+    border-radius: 0;
     box-shadow: none;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding: 0;
+    height: 100%;
+    border-left: 1px solid #CE292C;
 }
+
 </style>

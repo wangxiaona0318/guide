@@ -18,6 +18,12 @@
             </div>
             <div class="py_qr">
                 <div>
+                    <img src="../assets/header/qr.png" class="pyqr-img">
+                </div>
+                <div>濮院指数</div>
+            </div>
+            <div class="py_qr">
+                <div>
                     <img src="../assets/header/py_qr.jpg" class="pyqr-img">
                 </div>
                 <div>扫码关注世贸大厦公众号</div>
