@@ -93,5 +93,20 @@ export default {
     height: 100%;
     border-left: 1px solid #CE292C;
 }
+.guide-storey .storey-content{
+    margin-left: 10px;
+    .storey-item{
+        line-height: 34px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            background: #CE292C;
+            color: #fff;
+        }
+    }
+}
 
 </style>
