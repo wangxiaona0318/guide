@@ -67,7 +67,7 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 87px 0;
+    padding: 60px 0;
     border: 1px solid #CE292C;
     border-radius: 24px;
     box-sizing: border-box;
