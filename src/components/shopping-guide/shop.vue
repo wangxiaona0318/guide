@@ -26,7 +26,7 @@
                 <div
                     @click="changeFloor(k)"
                     class="storey-item"
-                    :class="{active: index === k}"
+                    :class="{active: floorIndex === k}"
                     v-for="(v, k) in floor"
                     :key='k'>{{v+1+'F'}}</div>
             </div>

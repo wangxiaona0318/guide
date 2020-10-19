@@ -24,7 +24,7 @@ export default {
     name: 'layer',
     data() {
         return {
-            data: [0, 1, 2, 3, 4],
+            data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
             floor: 0,
             url: require('../../assets/layer/floor0.jpg')
         }
