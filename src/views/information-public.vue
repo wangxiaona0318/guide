@@ -57,6 +57,10 @@ export default {
         height: 502px;
         width: 100%;
         box-sizing: border-box;
+        border: 1px solid #CE292C;
+        border-radius: 24px;
+        margin-top: 22px;
+        overflow: auto;
         .item{
             width: 100%;
             .title{

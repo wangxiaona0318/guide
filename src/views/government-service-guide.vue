@@ -21,7 +21,10 @@ export default {
 </script>
 <style lang="less" scoped>
 .government-body{
+    height: 100%;
     padding: 0 30px;
+    border: 1px solid #CE292C;
+    border-radius: 24px;
 }
 .list{
     margin: 0 0 0 -20px;
