@@ -108,23 +108,11 @@ const system = {
             id: 129,
             title: '疫情防控管理制度'
         },
-        
+        {
+            id: 130,
+            title: '服务承诺'
+        },
     ],
-    "links":{
-        "first":"http://47.110.135.173/maofancity/admin/public//home/information?page=1",
-        "last":"http://47.110.135.173/maofancity/admin/public//home/information?page=1",
-        "prev":null,
-        "next":null
-    },
-    "meta":{
-        "current_page":1,
-        "from":1,
-        "last_page":1,
-        "path":"http://47.110.135.173/maofancity/admin/public//home/information",
-        "per_page":"6",
-        "to":2,
-        "total":2
-    }
 }
 
 const complaint = {
