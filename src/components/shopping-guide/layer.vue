@@ -1,6 +1,6 @@
 <template>
     <div class="guide-body">
-        <img src="../../assets/header/qr.png" class="qr-img">
+        <img src="../../assets/layer/qr.png" class="qr-img">
         <div class="guide-picture-content">
             <div class="guide-picture">
                 <div>
