@@ -2,8 +2,8 @@
     <div class="shopping-guide">
         <div class="tab">
             <div @click="tabChange(v, k)" :class="{active: index === k}" class="tab-item" v-for="(v, k) in tab" :key="k">
-                <a v-if="v.name=='产品价格'" href="http://puyuan1.ctei.cn/login" target="_blank">{{v.name}}</a>
-                <span v-else>{{v.name}}</span>
+                <!-- <a v-if="v.name=='产品价格'" href="http://puyuan1.ctei.cn/login" target="_blank">{{v.name}}</a> -->
+                <span>{{v.name}}</span>
             </div>
         </div>
         <div class="information-content">
