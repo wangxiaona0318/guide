@@ -50,50 +50,7 @@ const id113 = {
     九、大厦营业结束后，，对直廊推窗关闭情况检查一次，门上锁是否符合安全要求。
     十、秉公执法，照章办事，及时掌握大厦治安动态情况，如遇突发事件，应迅速报告有关治安执法部门。</div>`
 }
-const id115 = {
-    content: `<div>
-    <p style="font-weight: 900;margin:0;font-size: 22px;text-align: center;">濮院世贸大厦经营户管理考核办法</p>
-    为了维护市场和经营户的共同利益,树立世贸大厦良好的对外形象,对照省四星级文明规范市场的标准,做到讲文明\讲服务\讲公德\推行公平竞争,公正交易的商业原则,自觉遵守国家工商法规和市场的 各项规章制度,促进市场的繁荣和发展,有关2020年市场对个经营户文明规范管理考核评分实施办法制定如下:
-    一、凡进驻濮院世贸大厦的经营户必须遵守《濮院世贸大厦经营户规范管理考核条例》的各项内容。
-    二、为了鼓励先进，鞭策后进，争做执行考核的模范，经市场业委会决定，2020年度将根据各经营户对本考核条例的执行和扣分情况，分五档次，一级、二级、三级、四级、五级，采取返利奖——减免下一年度部份管理费的形式，使各经营户获得返利奖的机会，具体返利额度按全年管理费的15﹪、同时当选2007年优秀经营户、10﹪、5﹪、0%返回。所扣分数按以下各档次，每户实际扣分的百分比计算。并定期检查经营户行为，一级经营户免检查，二级经营户一年一次，三级经营户半年一次，四级经营户一季度一次，五级经营户一个月一次。
-    三、执行办法：依据本条例，通过考核扣分得出返利额度，返利额度分别:          
-        1、年度得分100分的，评为一级经营户，下一年度管理费按15﹪返回，并当选2020年度优秀经营户，组织旅游一次。
-        2、年度扣分在90以上的，评为二级经营户，下一年度管理费按10﹪返回。
-        3、年度扣分在80以上分的，评为三级类经营户，下一年度管理费按5﹪返回。
-        4、年度扣分在70以上的，评为四级经营户，下一年度管理费按0﹪返回。
-        5、年度扣分70以下的，评委五级经营户，按每超过1分扣100元的标准扣罚，在保证金中扣除，并经常上门教育宣传。
-    四、为了体现这次返利优惠政策的公正性，严肃性，市场管理人员将本着公平、公正、认真的态度进行考评，务请各经营户积极支持，共同配合，齐抓共管，为本市场的长期繁荣和各经营户的进一步发展而共同努力。
-    五、本条例从2020年1月份执行。</div>`
-}
-const id116 = {
-    content: `<div>
-    <p style="font-weight: 900;margin:0;font-size: 22px;text-align: center;">濮院世贸大厦经营户考核条例</p>
-    一、有关证照齐全、并挂明显处、合法经营
-    二、执行合同规定，按时缴纳管理费、空调费、水电费、电话费市场规费等相关费用。拖欠一次扣2分
-    三、本区域营业场所洁净美观，无越门经营现象。发现一次扣2分
-    四、无顾客投诉和消费争议。
-    五、发布广告内容真实合法，设立广告必须事先办理申请手续，经批准后按规范发布。
-    六、建立购销明细台帐。
-    七、统一使用标签做到明码标价。
-    八、无占道经营行为，门往内开。
-    九、各商铺经营负责人须做好所属员工的纪律工作，自备摩托车、电瓶车、自行车不得进入大厦内，否则发现一次扣该商铺。
-    十、经营区域内出现赌赙事件，扣赌博所在经营户。
-    十一、对大厦公共设施，道路、门、窗、公用卫生间、电线开关等设施造成严重损坏，照价赔偿、同时执行考核扣分。
-    十二、对摆放绿化破坏或私自移位的。
-    十三、防火卷帘门下严禁摆放货物。
-    十四、快餐盘、拖把、打包工具放在通道上的。发现一次扣1分
-    十五、私自拉接电线、用电炉、电饭煲做饭、烧菜的。
-    十六、仿冒或冒用认证标志、名优标志，以假充真，以次充好。
-    十七、合同期内经营用房擅自调换、租借、转让不经过管理办公室办理相关手续的。
-    十八、任意挪用消防器材和损坏消防设备的。
-    十九、宣传广告，设立前必须办理相应书面报告，经审核后方可设立。
-    二十、搞好相互团结，商户之间发生吵架和纠纷扰乱市场经营秩序及市场名誉的。（情节严重的递交司法机关处理）
-    二十一、上岗时间佩带工作证。
-    二十二、无特殊情况，不请假擅自停业壹天以上，迟到、早退每月两次以上的。否则发现一次扣1分
-    二十三、遵守市场管理，配合和支持保安工作，在处理违章事件过程中现场围攻和辱骂保安工作人员的。
-    二十四、不按时交纳房租押金的。
-    二十五、在大楼里打架、斗殴，参与非法聚会、邪教组织、“黄、赌、毒”等违法行为的。（情节严重的交司法机关处理）</div>`
-}
+
 const id117 = {
     content: `<div>
     <p style="font-weight: 900;margin:0;font-size: 22px;text-align: center;">世贸大厦安全防火管理规程</p>
@@ -531,12 +488,14 @@ const id130 = {
 　　5、公开公正，按章办事，廉洁从业；
 　　6、自觉接受客户监督，有诉必应。</div>`
 }
+const id131 = {
+    content: `<div>
+    <p style=\"text-align:left;text-indent:40px;line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u4e3a\u52a0\u5927\u5bf9\u77e5\u8bc6\u4ea7\u6743\u7684\u4fdd\u62a4\u529b\u5ea6\uff0c\u63a8\u8fdb\u8bda\u4fe1\u5e02\u573a\u5efa\u8bbe\uff0c\u5207\u5b9e\u7ef4\u62a4\u6d88\u8d39\u8005\u5408\u6cd5\u6743\u76ca\uff0c\u6839\u636e\u6709\u5173\u6cd5\u5f8b\u6cd5\u89c4\u7684\u89c4\u5b9a\uff0c\u5236\u5b9a\u672c\u5236\u5ea6\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e00\u6761&nbsp; \u672c\u5236\u5ea6\u9002\u7528\u4e8e\u4e0e\u5e02\u573a\u7b7e\u8ba2\u5546\u94fa\u79df\u8d41\u5408\u540c\u3001\u5165\u573a\u7ecf\u8425\u7684\u4f01\u4e1a\u548c\u4e2a\u4f53\u7ecf\u8425\u6237\uff08\u4ee5\u4e0b\u7b80\u79f0\u7ecf\u8425\u6237\uff09\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e8c\u6761&nbsp; \u54c1\u724c\u5546\u54c1\u767b\u8bb0\u7ba1\u7406\uff0c\u662f\u6307\u5bf9\u8fdb\u5165\u5e02\u573a\u7684\u7ecf\u8425\u8005\u6240\u7ecf\u9500\u5546\u54c1\u7684\u5546\u6807\u6ce8\u518c\u8bc1\uff0c\u4e13\u5229\u8bc1\u4e66\uff0c\u7eff\u8272\u6216\u65e0\u516c\u5bb3\u8bc1\u660e\uff0c\u6709\u5173\u8d28\u91cf\u8ba4\u8bc1\u8ba4\u8bc1\u6807\u5fd7\u7b49\u8d44\u6599\u8fdb\u884c\u767b\u8bb0\u7ba1\u7406\uff0c\u907f\u514d\u5047\u5192\u5546\u54c1\u6d41\u5165\u5e02\u573a\u3002<\/span><\/p><p style=\"text-indent:40px;line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e09\u6761&nbsp; \u5e02\u573a\u7ba1\u7406\u65b9\u9700\u638c\u63e1\u573a\u5185\u7ecf\u8425\u8005\u77e5\u540d\u54c1\u724c\u5546\u54c1\u7ecf\u9500\u60c5\u51b5\uff0c\u5e76\u5efa\u7acb\u767b\u8bb0\u7ba1\u7406\u6863\u6848\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u56db\u6761&nbsp; \u7ecf\u8425\u8005\u4ee5\u603b\u4ee3\u7406\u3001\u603b\u7ecf\u9500\u3001\u7279\u7ea6\u7ecf\u9500\u7b49\u5f62\u5f0f\u4ece\u4e8b\u7ecf\u8425\u6d3b\u52a8\uff0c\u5fc5\u987b\u5c06\u6240\u6301\u7684\u6388\u6743\u59d4\u6258\u4e66\u3001\u6ce8\u518c\u8bc1\u7b49\u76f8\u5173\u8bc1\u4ef6\u5728\u5e02\u573a\u7ba1\u7406\u65b9\u767b\u8bb0\u5907\u6848\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e94\u6761&nbsp; \u7ecf\u8425\u8005\u5e94\u5f53\u5728\u4e03\u65e5\u5185\u65e5\u5c06\u54c1\u724c\u6d89\u53ca\u7684\u76f8\u5173\u6750\u6599\u63d0\u4ea4\u5e02\u573a\u7ba1\u7406\u65b9\uff0c\u7ecf\u767b\u8bb0\u5907\u6848\u540e\u4ece\u4e8b\u54c1\u724c\u5546\u54c1\u7684\u7ecf\u8425\u6d3b\u52a8\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u516d\u6761&nbsp; \u7ecf\u8425\u8005\u5e94\u5f53\u5728\u63d0\u4f9b\u7684\u8bc1\u4ef6\u8d44\u6599\u4e0a\u7b7e\u5b57\uff0c\u4e3a\u8d44\u6599\u7684\u771f\u5b9e\u6765\u6e90\u8d1f\u8d23\uff0c\u5e76\u53ca\u65f6\u66f4\u65b0\u63d0\u4f9b\u7684\u8bc1\u4ef6\u8d44\u6599\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e03\u6761&nbsp; \u7ecf\u8425\u8005\u5e94\u5f53\u5728\u7ecf\u8425\u573a\u6240\u516c\u793a\u81ea\u5df1\u7ecf\u9500\u7684\u5546\u54c1\u54c1\u724c\u76f8\u5173\u8bc1\u660e\u3002\u7ecf\u8425\u8005\u9500\u552e\u7684\u5546\u54c1\u672a\u5217\u5165\u77e5\u540d\u54c1\u724c\u8303\u56f4\u3001\u672a\u7ecf\u4f9d\u6cd5\u8ba4\u5b9a\u4e3a\u77e5\u540d\u5546\u54c1\u7684\uff0c\u4e0d\u5f97\u64c5\u81ea\u4f2a\u79f0\u6240\u9500\u552e\u7684\u5546\u54c1\u4e3a\u77e5\u540d\u54c1\u724c\u5546\u54c1\u3002<\/span><\/p><p style=\"line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">&nbsp;&nbsp;&nbsp; <\/span><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u516b\u6761&nbsp; \u5e02\u573a\u7ba1\u7406\u65b9\u5e94\u53ca\u65f6\u3001\u51c6\u786e\u5c06\u7ecf\u8425\u8005\u63d0\u4f9b\u7684\u8bc1\u4ef6\u8d44\u6599\u8f93\u5165\u7535\u8111\uff0c\u5145\u5206\u5229\u7528\u7f51\u7edc\u8fdb\u884c\u67e5\u8be2\u5bf9\u6bd4\uff0c\u9632\u6b62\u5047\u5192\u54c1\u724c\u5546\u54c1\u8fdb\u5165\u672c\u5e02\u573a\u3002\u5bf9\u7ecf\u8425\u8005\u63d0\u4f9b\u7684\u8bc1\u4ef6\u8d44\u6599\u9057\u6f0f\u3001\u5dee\u9519\u3001\u5931\u6548\u5185\u5bb9\u7684\uff0c\u7763\u4fc3\u53ca\u65f6\u6539\u6b63\u3002<\/span><\/p><p style=\"text-indent:37px;line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u4e5d\u6761&nbsp; \u5bf9\u5728\u65e5\u5e38\u76d1\u7ba1\u4e2d\u53d1\u73b0\u7684\u9500\u552e\u5047\u5192\u54c1\u724c\u5546\u54c1\u7684\u884c\u4e3a\u53ca\u65f6\u5411\u8f96\u533a\u5e02\u573a\u76d1\u7ba1\u90e8\u95e8\u6c47\u62a5\uff0c\u914d\u5408\u5e02\u573a\u76d1\u7ba1\u90e8\u95e8\u5bf9\u573a\u5185\u8fdd\u6cd5\u7ecf\u8425\u884c\u4e3a\u8fdb\u884c\u67e5\u5904\u3002<\/span><\/p><p style=\"text-indent:37px;line-height:37px\"><span style=\"font-size:20px;font-family:\u4eff\u5b8b\">\u7b2c\u5341\u6761&nbsp; \u54c1\u724c\u5546\u54c1\u767b\u8bb0\u5907\u6848\u7ba1\u7406\u7684\u5177\u4f53\u5de5\u4f5c\u7531\u7efc\u5408\u7ba1\u7406\u90e8\u8d1f\u8d23\u3002<\/span><\/p><p><br\/><\/p></div>`
+}
 const data = {
     id14,
     id112,
     id113,
-    id115,
-    id116,
     id117,
     id118,
     id119,
@@ -550,6 +509,7 @@ const data = {
     id127,
     id128,
     id129,
-    id130
+    id130,
+    id131
 }
 export default data

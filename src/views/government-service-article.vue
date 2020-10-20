@@ -35,6 +35,7 @@ export default {
     }
     img{
         margin-top: 36px;
+        max-width: 100%;
     }
 }
 </style>
