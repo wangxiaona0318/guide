@@ -6,6 +6,7 @@
 <script>
 import system from '../api/information-system.js'
 import complaint from '../api/information-complaint.js'
+import wards from '../api/information-wards.js'
 
 export default {
     name: 'informationPublicDetail',
@@ -14,7 +15,8 @@ export default {
             content: '',
             datas: {
                 system,
-                complaint
+                complaint,
+                wards,
             }
         }
     },

@@ -108,10 +108,7 @@ const system = {
             id: 129,
             title: '疫情防控管理制度'
         },
-        {
-            id: 130,
-            title: '优秀经营户评选方案'
-        },
+        
     ],
     "links":{
         "first":"http://47.110.135.173/maofancity/admin/public//home/information?page=1",
@@ -171,8 +168,17 @@ const complaint = {
         "total":1
     }
 }
+const wards = {
+    data: [
+        {
+            id: 130,
+            title: '优秀经营户评选方案'
+        },
+    ]
+}
 const data = {
     system,
     complaint,
+    wards,
 }
 export default data

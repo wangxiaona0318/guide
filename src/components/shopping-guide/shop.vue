@@ -26,13 +26,26 @@
             <div class="storey-content">
                 <div
                     @click="changeFloor(k)"
-                    class="storey-item"
-                    :class="{active: floorIndex === k}"
                     v-for="(v, k) in floor"
-                    :key='k'>{{v+1+'F'}}</div>
+                    :key='k'>
+                    <template v-if="k < 5">
+                        <div class="storey-item" :class="{active: floorIndex === k}">{{v+1+'F'}}</div>
+                    </template>
+                </div>
             </div>
         </div>
-        
+        <div class="guide-storey">
+            <div class="storey-content">
+                <div
+                    @click="changeFloor(k)"
+                    v-for="(v, k) in floor"
+                    :key='k'>
+                    <template v-if="k > 4">
+                        <div class="storey-item" :class="{active: floorIndex === k}">{{v+1+'F'}}</div>
+                    </template>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 <script>
@@ -42,7 +55,7 @@ export default {
     data() {
         return {
             data: floorData[0].data,
-            floor: [0, 1, 2, 3, 4],
+            floor: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
             floorIndex: 0,
             index: 0,
             page: Math.ceil(floorData[0].data.length/30)
@@ -88,8 +101,10 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 10px 0;
+    padding: 10px 20px;
     box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
 }
 .wrap-img{
     position: absolute;

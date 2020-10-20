@@ -12,7 +12,6 @@
             <div class="storey-content">
                 <div
                     @click="imgHandler(k)"
-                    
                     v-for="(v, k) in data"
                     :key='k'>
                     <template v-if="k < 5">
@@ -21,7 +20,7 @@
                 </div>
             </div>
         </div>
-        <div class="guide-storey" style="margin-left: 10px">
+        <div class="guide-storey">
             <div class="storey-content">
                 <div
                     @click="imgHandler(k)"
@@ -68,11 +67,12 @@ export default {
     flex-direction: row;
     align-items: center;
     padding: 0 20px;
+    justify-content: space-between;
 }
 .guide-picture-content{
     padding-bottom: 30px;
     padding-right: 15px;
-    width: 1238px;
+    width: 1000px;
     height: 619px;
     box-sizing: border-box;
     .guide-picture{
@@ -103,10 +103,6 @@ export default {
             }
         }
     }
-}
-.guide-storey{
-    margin-top: 20px;
-    // height: 600px;
 }
 .qr-img{
     width: 200px;

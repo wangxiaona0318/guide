@@ -1,2807 +1,541 @@
-const floor1= {
-    "data":[
-        {
-            "id":2,
-            "name":"览丰围巾",
-            "address":null,
-            "seller":"徐源忠",
-            "telephone":"15958598188",
-            "main_bussiness":"羊毛羊绒围巾 真丝围巾",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":"286,287,288,294",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-11 14:18:49",
-            "numbers":"1001-1002",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831305_6ryLZrYT5w.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831315_CFBMIuK1q5.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831324_lPonyvMNCZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599833927_MHW4Tpo8Ri.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":3,
-            "name":"兰黛朵朵",
-            "address":null,
-            "seller":"徐叶红",
-            "telephone":"15988367756",
-            "main_bussiness":"全羊毛，羊毛绒，高中端打底",
-            "wechat_name":null,
-            "wechat_qrcode":295,
-            "photos":"296,297,298,299",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 06:35:53",
-            "numbers":"1003-1005",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599892493_uZtKYTkJIX.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892502_AobBrE5X06.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892509_rxQOtzKqvY.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892517_nmtRhvtkWw.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892527_HxZGyHxYyR.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":295,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599892493_uZtKYTkJIX.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":4,
-            "name":"古皇服饰",
-            "address":null,
-            "seller":"郭文青",
-            "telephone":"13867315369",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":663,
-            "photos":"664,665,666,667",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:34:48",
-            "numbers":"1006-1007",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599924850_jjF0ts6bar.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599924858_Cpi2MfQDzT.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599924870_VvbSyPj0FV.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599924878_UrTNzocVzu.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599924886_wPG54Laaea.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":663,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599924850_jjF0ts6bar.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":5,
-            "name":"七月",
-            "address":null,
-            "seller":"金丹红",
-            "telephone":"13857310815",
-            "main_bussiness":"刘羊毛打底，开衫针织系列，高端欧韩羊绒大衣",
-            "wechat_name":null,
-            "wechat_qrcode":668,
-            "photos":"669,670,671,672",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:38:20",
-            "numbers":"1008-1009",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599925033_zyoMysU4hY.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925053_bkvK9ivGJZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925081_ZVM5v72rb3.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925089_SROx1f1bxX.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925097_lsN5PNUTby.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":668,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599925033_zyoMysU4hY.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":6,
-            "name":"爱马围巾",
-            "address":null,
-            "seller":"黄仙灵",
-            "telephone":"18357211888",
-            "main_bussiness":"羊毛羊绒围巾，真丝围巾",
-            "wechat_name":null,
-            "wechat_qrcode":678,
-            "photos":"680,682,688,689",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:39:16",
-            "numbers":"1010-1011",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599925121_3qXcaenbWR.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925129_tFj2Crp2y5.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925137_fmhwzG3mSF.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925147_v2JFXMmtEm.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599925155_2plPN3BUMT.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":678,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599925121_3qXcaenbWR.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":7,
-            "name":"歌之牧",
-            "address":null,
-            "seller":"徐云飞",
-            "telephone":"13867342565",
-            "main_bussiness":"双面尼大衣，羊毛羊绒大衣",
-            "wechat_name":null,
-            "wechat_qrcode":955,
-            "photos":"956,957,958,959",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:25:55",
-            "numbers":"1012-1013",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599960307_c7WjlKerpZ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960313_TmLDGcojXz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960320_RbXMuPOEze.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960346_4pqIOVVeS7.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960354_wrzhKPJi86.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":955,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599960307_c7WjlKerpZ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":8,
-            "name":"",
-            "address":null,
-            "seller":"",
-            "telephone":"",
-            "main_bussiness":"",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":null,
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":null,
-            "numbers":"1015-1016",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":9,
-            "name":"",
-            "address":null,
-            "seller":"",
-            "telephone":"",
-            "main_bussiness":"",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":null,
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":null,
-            "numbers":"1017-1018",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":10,
-            "name":"银行",
-            "address":null,
-            "seller":"濮信",
-            "telephone":"",
-            "main_bussiness":"",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":null,
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":null,
-            "numbers":"1019-1023",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":11,
-            "name":"悠兰姿",
-            "address":null,
-            "seller":"沈惠琴",
-            "telephone":"13857327158",
-            "main_bussiness":"羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":960,
-            "photos":"961,962,963,964",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:27:50",
-            "numbers":"1025-1026",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599960442_SFPfb0V0wg.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960449_kBmnG1Ee7k.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960455_GcaVMYeUWZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960461_qgCqUo22Bo.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960468_fCWCQxgSA4.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":960,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599960442_SFPfb0V0wg.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":12,
-            "name":"墨笙",
-            "address":null,
-            "seller":"沈翠萍",
-            "telephone":"15968352001",
-            "main_bussiness":"羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":965,
-            "photos":"966,967,968,969",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:29:04",
-            "numbers":"1027-1028",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599960505_14h5YAIot3.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960513_eVJSjOGSla.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960518_b22jNI8w9G.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960535_42XNhpSgqz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960541_zPsi6jGKNm.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":965,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599960505_14h5YAIot3.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":13,
-            "name":"DMK",
-            "address":null,
-            "seller":"夏桂芬",
-            "telephone":"13867380502",
-            "main_bussiness":"中高端欧版韩版年轻时尚针织毛衣",
-            "wechat_name":null,
-            "wechat_qrcode":970,
-            "photos":"971,972,973,974",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:33:19",
-            "numbers":"1029-1030",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599960729_vumYVlvCaB.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960735_IMnxj1kKLl.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960753_gsWRscM4dv.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960760_h9TOMocYWN.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599960798_Ds1EIEzmgQ.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":970,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599960729_vumYVlvCaB.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":14,
-            "name":"小龙女服饰",
-            "address":null,
-            "seller":"章刘琴",
-            "telephone":"15869039599",
-            "main_bussiness":"耗牛绒，山羊绒，全羊毛",
-            "wechat_name":null,
-            "wechat_qrcode":300,
-            "photos":"301,302,303,304",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 06:38:51",
-            "numbers":"1031-1032",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599892699_w1v8yo8cGz.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892706_dNzHSfZjmu.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892714_0at4ADT0nC.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892722_muyuro6qoU.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599892729_uUCHdFDzEJ.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":300,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599892699_w1v8yo8cGz.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":15,
-            "name":"友凡",
-            "address":null,
-            "seller":"屠亚杰",
-            "telephone":"13867333583",
-            "main_bussiness":"100%全羊毛，羊绒，耗牛绒",
-            "wechat_name":null,
-            "wechat_qrcode":975,
-            "photos":"976,977,978,979",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:51:40",
-            "numbers":"1033-1035",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599961872_C4NydosHLt.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599961880_3AwwPQspxs.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599961885_dxOQic2dOs.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599961892_9cSdGlf06d.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599961899_taLUfLaYCS.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":975,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599961872_C4NydosHLt.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":16,
-            "name":"卡丽恩",
-            "address":null,
-            "seller":"陈丽",
-            "telephone":"13857339315",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":980,
-            "photos":"981,982,983,984",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:55:03",
-            "numbers":"1036-1037",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599962071_K5xJfIJUOX.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962081_VI0qG6jf8N.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962087_IuPObNAPMO.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962095_gLoYmpAZBE.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962102_g9gKSXCHDm.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":980,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599962071_K5xJfIJUOX.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":17,
-            "name":"俏妞",
-            "address":null,
-            "seller":"崔妞",
-            "telephone":"13784983926",
-            "main_bussiness":"针织女装，全品类",
-            "wechat_name":null,
-            "wechat_qrcode":985,
-            "photos":"986,987,988,989",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:57:27",
-            "numbers":"1038-1039",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599962217_7D8Ag6PrOG.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962224_ByNlQ5XBRu.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962230_o6dk4L5pzQ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962239_7V5bW3y8er.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962245_V3LYzwhg90.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":985,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599962217_7D8Ag6PrOG.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":18,
-            "name":"雪莲多贝",
-            "address":null,
-            "seller":"郭海英",
-            "telephone":"13973643333",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底，双面尼",
-            "wechat_name":null,
-            "wechat_qrcode":990,
-            "photos":"991,992,993,994",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 01:59:35",
-            "numbers":"1040-1041",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599962271_9a6KS1Bpck.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962280_fnmIqmjeqc.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962285_0Hl6ixJ9bp.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962295_QOLyek1Zzl.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599962301_UERvGGzYYu.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":990,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599962271_9a6KS1Bpck.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":19,
-            "name":"加特林",
-            "address":null,
-            "seller":"王涛涛",
-            "telephone":"13732579933",
-            "main_bussiness":"卫衣",
-            "wechat_name":null,
-            "wechat_qrcode":995,
-            "photos":"996,997,998,999",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:14:09",
-            "numbers":"1042",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963222_zNSkHi2ljT.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963229_y62jpqK3PY.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963235_HpKFgfi5Ka.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963242_EhW1cvUqsn.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963248_wGj0dsknAR.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":995,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963222_zNSkHi2ljT.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":20,
-            "name":"塔奇尼",
-            "address":null,
-            "seller":"金美云",
-            "telephone":"13017772473",
-            "main_bussiness":"全品类女装",
-            "wechat_name":null,
-            "wechat_qrcode":1000,
-            "photos":"1001,1002,1003,1004",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:15:24",
-            "numbers":"1043-1045",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963282_SxNeIyvums.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963291_PTHCYWJK6F.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963307_GJqvW7FRBe.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963313_3D98sdrd7O.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963320_Tz5MP0BBbI.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1000,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963282_SxNeIyvums.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":21,
-            "name":"双面羊绒",
-            "address":null,
-            "seller":"孔小萍",
-            "telephone":"13777723438",
-            "main_bussiness":"双面尼，打底衫，羊毛羊绒衫",
-            "wechat_name":null,
-            "wechat_qrcode":1005,
-            "photos":"1006,1007,1008,1009",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:18:57",
-            "numbers":"1046-1047",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963484_cHH8jXpmj2.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963509_Rnoak9UN2c.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963519_uR2JX5j6HW.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963529_8aFtBg1raZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963535_EWyx0s8fMb.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1005,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963484_cHH8jXpmj2.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":22,
-            "name":"杭驰时尚女裤",
-            "address":null,
-            "seller":"高秀林",
-            "telephone":"15825696988",
-            "main_bussiness":"裤子，裙子",
-            "wechat_name":null,
-            "wechat_qrcode":1010,
-            "photos":"1011,1012,1013,1014",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:20:53",
-            "numbers":"1048-1049",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963594_Dmw4TYtys1.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963602_f5h7gLqUi6.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963639_p2vqzirinS.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963646_iZlUvjells.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963651_J7f5BR6tsY.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1010,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963594_Dmw4TYtys1.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":23,
-            "name":"CGU",
-            "address":null,
-            "seller":"孔慧霞",
-            "telephone":"13819317495",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":1015,
-            "photos":"1016,1017,1018,1019",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:22:27",
-            "numbers":"1050.106",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963716_CsbiS1z4em.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963725_Hls6SFFYzG.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963733_Ba6Bk9KQfE.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963739_2iGwjHo6Gv.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963746_l0VA156dg2.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1015,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963716_CsbiS1z4em.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":24,
-            "name":"sexybaby",
-            "address":null,
-            "seller":"庄萍",
-            "telephone":"18324362015",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底，大衣",
-            "wechat_name":null,
-            "wechat_qrcode":1020,
-            "photos":"1021,1022,1023,1024",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:23:25",
-            "numbers":"1051-1052",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963774_C1s78RaLmF.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963782_bSNcn2Ie1S.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963787_tg2qq3BvnS.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963793_FhxrtKZJ8a.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963801_xezpaUxcmv.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1020,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963774_C1s78RaLmF.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":25,
-            "name":"浅凤凰",
-            "address":null,
-            "seller":"望芳",
-            "telephone":"18698506876",
-            "main_bussiness":"全羊毛，羊毛衫，羊绒衫，打底",
-            "wechat_name":null,
-            "wechat_qrcode":1025,
-            "photos":"1026,1027,1028,1029",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:24:31",
-            "numbers":"1053-1055",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963842_CGBdw35QHA.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963847_hdF03ieuFI.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963854_LeWqGN2UEU.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963861_e8a7yBc9eG.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963867_m02oXZOGJA.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1025,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963842_CGBdw35QHA.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":26,
-            "name":"王妃",
-            "address":null,
-            "seller":"王娟",
-            "telephone":"18267307818",
-            "main_bussiness":"毛衣，大衣，羽绒服",
-            "wechat_name":null,
-            "wechat_qrcode":1030,
-            "photos":"1031,1032,1033,1034",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:25:21",
-            "numbers":"1056-1057",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963891_srrXSAUEij.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963900_MOGah2q6R7.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963907_4hZVC9GvGa.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963913_cAPq2ewHSb.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963920_txXSUzs8xN.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1030,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963891_srrXSAUEij.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":27,
-            "name":"永彦绒",
-            "address":null,
-            "seller":"何永",
-            "telephone":"15924243666",
-            "main_bussiness":"羊绒衫",
-            "wechat_name":null,
-            "wechat_qrcode":1035,
-            "photos":"1036,1037,1038,1039",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:27:17",
-            "numbers":"1058-1059",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599963975_qz6eGnzqJD.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963984_qSl7M6L9qR.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963990_grTJYk1sXx.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599963996_dgLznEiuOL.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964001_Bez3IL3xPu.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1035,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599963975_qz6eGnzqJD.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":28,
-            "name":"冬雨",
-            "address":null,
-            "seller":"朱建升",
-            "telephone":"13819302311",
-            "main_bussiness":"羊毛羊绒衫，大衣，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1040,
-            "photos":"1041,1042,1043,1044",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:28:04",
-            "numbers":"1061-1062",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964056_mCcy8XoIUN.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964065_SfVXIT1eVf.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964071_g82Qso87Nm.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964078_hrMGkegOE8.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964083_OOF3TvUWWN.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1040,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964056_mCcy8XoIUN.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":29,
-            "name":"慕米绒",
-            "address":null,
-            "seller":"陈培倩",
-            "telephone":"15888327223",
-            "main_bussiness":"羊毛羊绒衫，大衣，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1052,
-            "photos":"1053,1054,1055,1056",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:32:43",
-            "numbers":"1065",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964331_GPiElt4int.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964342_FdNukovOeK.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964348_S7QYyMzK2r.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964355_H6lIENoca5.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964361_qrL3I2uhk5.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1052,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964331_GPiElt4int.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":30,
-            "name":"尹资",
-            "address":null,
-            "seller":"李倩",
-            "telephone":"15067338709",
-            "main_bussiness":"全羊毛，耗牛绒",
-            "wechat_name":null,
-            "wechat_qrcode":1047,
-            "photos":"1048,1049,1050,1051",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:30:01",
-            "numbers":"1063",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964166_ldoZJ4x07x.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964177_TDkFqcfc8a.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964184_idIMA49WLo.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964191_zrHRZRv0iE.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964197_nt2apYIY2N.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1047,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964166_ldoZJ4x07x.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":31,
-            "name":"凡髙",
-            "address":null,
-            "seller":"高玉萍",
-            "telephone":"13706835696",
-            "main_bussiness":"羊毛羊绒衫，大衣，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1057,
-            "photos":"1058,1059,1060,1061",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:33:50",
-            "numbers":"1067",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964396_PQkjLpKrW7.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964403_avZCASzohw.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964409_tvHH9fjPLZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964417_8WY3pQk3Fc.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964423_9iZc88JIcK.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1057,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964396_PQkjLpKrW7.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":32,
-            "name":"欧姿冠",
-            "address":null,
-            "seller":"那立萍",
-            "telephone":"18368329158",
-            "main_bussiness":"印花衫，和卫衣",
-            "wechat_name":null,
-            "wechat_qrcode":1062,
-            "photos":"1063,1064,1065,1066",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:34:44",
-            "numbers":"1066",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964455_S5vRG0oK1g.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964461_KowuF6sPhO.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964468_Vd5tJBS79B.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964475_ccvwHtdjBi.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964483_TfTaU6xpru.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1062,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964455_S5vRG0oK1g.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":33,
-            "name":"安鑫",
-            "address":null,
-            "seller":"郑苗红",
-            "telephone":"18268428307",
-            "main_bussiness":"羊毛羊绒衫，大衣，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1067,
-            "photos":"1068,1069,1070,1071",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:36:45",
-            "numbers":"1068",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599964573_kNP3257oDU.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964581_DAn00BwTsI.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964592_Vg8695oPsr.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964597_64rpykVqwj.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599964604_8SURIralGr.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1067,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599964573_kNP3257oDU.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":34,
-            "name":"卓然依依",
-            "address":null,
-            "seller":"杨彦锋",
-            "telephone":"13857354225",
-            "main_bussiness":"已转租",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":null,
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:43:42",
-            "numbers":"1069",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":35,
-            "name":"围巾行",
-            "address":null,
-            "seller":"王雪奎",
-            "telephone":"18757368796",
-            "main_bussiness":"羊毛羊绒围巾 真丝围巾",
-            "wechat_name":null,
-            "wechat_qrcode":1072,
-            "photos":"1073,1074,1075,1076",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:44:29",
-            "numbers":"1070-1071",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599965042_Mt9tjueNM0.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965050_l8zwTEV9iX.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965057_lhIhjZu0KN.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965063_EI7l5sqkCz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965068_Mfo42cLEBt.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1072,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599965042_Mt9tjueNM0.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":36,
-            "name":"花.漾",
-            "address":null,
-            "seller":"李卫兵",
-            "telephone":"13067679308",
-            "main_bussiness":"时尚女裤，女裙",
-            "wechat_name":null,
-            "wechat_qrcode":1077,
-            "photos":"1078,1079,1080,1081",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:45:24",
-            "numbers":"1072-1073 1075-1076",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599965090_WPaD7HSanh.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965097_O2gC8DA6sy.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965104_eVa2B5A0nL.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965117_hcYe8thKFM.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965123_STSzg1lo4B.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1077,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599965090_WPaD7HSanh.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":37,
-            "name":"益尚秋",
-            "address":null,
-            "seller":"杨金娣",
-            "telephone":"13705837701",
-            "main_bussiness":"时尚女装，羊绒羊毛衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1082,
-            "photos":"1083,1084,1085,1086",
-            "floor":2,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-13 02:48:46",
-            "numbers":"1077-1079",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0913/user_1_1599965279_cWDmaWqZah.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965296_frVGVIQgyn.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965303_Wc9zCvWBGb.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965317_nMjASPY8n9.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0913/user_1_1599965325_FEu54wPEu8.jpg"
-            ],
-            "floor_info":{
-                "id":2,
-                "name":"1F",
-                "type":"floor",
-                "value":"1"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":1082,
-                "path":"/uploads/images/covers/2020/0913/user_1_1599965279_cWDmaWqZah.png",
-                "type":"cover"
-            }
-        }
-    ],
-    "links":{
-        "first":"http://47.110.135.173/maofancity/admin/public//home/shop?page=1",
-        "last":"http://47.110.135.173/maofancity/admin/public//home/shop?page=3",
-        "prev":null,
-        "next":"http://47.110.135.173/maofancity/admin/public//home/shop?page=2"
-    },
-    "meta":{
-        "current_page":1,
-        "from":1,
-        "last_page":3,
-        "path":"http://47.110.135.173/maofancity/admin/public//home/shop",
-        "per_page":"36",
-        "to":36,
-        "total":74
-    }
+const floor1 = {
+    data: [
+        { name: 'Design 设计感', numbers: '100--1' },
+        { name: '费尼兰思', numbers: '100--2' },
+        { name: '片', numbers: '100-A' },
+        { name: 'C位', numbers: '100-B' },
+        { name: '迪米凯莱', numbers: '101' },
+        { name: '馨蒂娅', numbers: '102' },
+        { name: '艾慕欧', numbers: '103' },
+        { name: '佳德妃', numbers: '105A' },
+        { name: '和润', numbers: '105B' },
+        { name: '欧谜', numbers: '106' },
+        { name: '太古名店', numbers: '107' },
+        { name: '胡同', numbers: '108' },
+        { name: '爱时妮', numbers: '109' },
+        { name: '牡丹公主', numbers: '110' },
+        { name: '汤尼', numbers: '110B' },
+        { name: '言库', numbers: '111' },
+        { name: '1991', numbers: '112' },
+        { name: '普古达', numbers: '113' },
+        { name: 'CK潮裤', numbers: '115' },
+        { name: '懿兰', numbers: '116' },
+        { name: '艺潇', numbers: '117A' },
+        { name: '井春', numbers: '117B' },
+        { name: '313', numbers: '118A' },
+        { name: '赛迈', numbers: '118B' },
+        { name: '多米Domi', numbers: '119' },
+        { name: '黛微微', numbers: '120' },
+        { name: '芭利玛.瑞妮', numbers: '121' },
+        { name: '衣米来', numbers: '122' },
+        { name: 'AL’ombre', numbers: '123' },
+        { name: 'VCC', numbers: '125' },
+        { name: 'JCM集承美', numbers: '126' },
+        { name: '告白季', numbers: '127A' },
+        { name: '驰媞', numbers: '127B' },
+        { name: '禧宝鹿王', numbers: '128' },
+        { name: '赛格', numbers: '129' },
+        { name: '漫.美', numbers: '130' },
+        { name: '他她迷', numbers: '131A' },
+        { name: '慕初', numbers: '131B' },
+        { name: 'M-1', numbers: '132' },
+        { name: 'm+麦加', numbers: '133' },
+        { name: '俞氏名门', numbers: '135' },
+        { name: '迪士奈儿', numbers: '136A' },
+        { name: 'SLN', numbers: '136B' },
+        { name: '赞姿', numbers: '137' },
+        { name: '红社女裤', numbers: '138A/138B/139' }
+      ]
 }
 const floor2 = {
-    "data":[
-        {
-            "id":76,
-            "name":"迪迪围巾",
-            "address":null,
-            "seller":"吴君",
-            "telephone":"13806451638",
-            "main_bussiness":"羊绒羊毛围巾，真丝围巾",
-            "wechat_name":null,
-            "wechat_qrcode":306,
-            "photos":"322,323,324,325",
-            "floor":3,
-            "cover":305,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:45:04",
-            "numbers":"2001-2005",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921321_WrN2MMCNoS.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921383_A6nojpGZwJ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921893_jX9yfgqg2m.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921896_mMkeakM4yR.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921898_OTCrgjTMC0.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921901_d9yOpH2qP8.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":305,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921321_WrN2MMCNoS.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":306,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921383_A6nojpGZwJ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":77,
-            "name":"",
-            "address":null,
-            "seller":"李斌",
-            "telephone":"15227085555",
-            "main_bussiness":"",
-            "wechat_name":null,
-            "wechat_qrcode":null,
-            "photos":null,
-            "floor":3,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":null,
-            "numbers":"2006",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"",
-            "photos_path":[
-
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":null
-        },
-        {
-            "id":78,
-            "name":"塑本时尚",
-            "address":null,
-            "seller":"蒋亚利",
-            "telephone":"18333270222",
-            "main_bussiness":"羊毛衫，羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":311,
-            "photos":"326,327,328,329",
-            "floor":3,
-            "cover":312,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:45:28",
-            "numbers":"2007",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921484_VuuPZZ1oAh.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921480_PS4QmmksuZ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921919_xfyHwrMsHa.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921922_qn1WaO5nSJ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921924_eod14xZRNs.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921927_kYTbH58727.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":312,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921484_VuuPZZ1oAh.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":311,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921480_PS4QmmksuZ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":79,
-            "name":"欧拉玛",
-            "address":null,
-            "seller":"胡道富",
-            "telephone":"18069662888",
-            "main_bussiness":"全羊毛，羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":318,
-            "photos":"330,331,332,333",
-            "floor":3,
-            "cover":317,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:45:55",
-            "numbers":"2008-2009",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921652_gBs8W5cwh1.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921656_8az9VBLWHe.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921941_SrFHY8Digl.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921943_BWzWDknWTM.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921945_S3pWC9xJHL.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921949_et6aTDTSDK.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":317,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921652_gBs8W5cwh1.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":318,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921656_8az9VBLWHe.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":80,
-            "name":"蓝诺薇",
-            "address":null,
-            "seller":"黄年美",
-            "telephone":"18858329088",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":335,
-            "photos":"336,337,338,339",
-            "floor":3,
-            "cover":0,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:46:31",
-            "numbers":"2010-2011",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599921974_SJ1pzHjK20.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921977_jfu7ZusrYb.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921980_XTyMpCrl5L.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921982_aLhzSPqfyN.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599921985_J5SOoIGq0e.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":335,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599921974_SJ1pzHjK20.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":81,
-            "name":"美娜多",
-            "address":null,
-            "seller":"王昆明",
-            "telephone":"13918755257",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":340,
-            "photos":"341,342,343,344",
-            "floor":3,
-            "cover":null,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:47:22",
-            "numbers":"2012-2013",
-            "cvoer_path":"",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922027_uqv6T6LNVa.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922031_8wwj3V5pco.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922033_oA7HDi56xl.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922035_jI0WhaprBP.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922038_JMBRffiA81.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":null,
-            "wechat_qrcode_info":{
-                "id":340,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922027_uqv6T6LNVa.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":82,
-            "name":"彤之若",
-            "address":null,
-            "seller":"董小乐",
-            "telephone":"18875887625",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":346,
-            "photos":"347,348,349,350",
-            "floor":3,
-            "cover":345,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:47:48",
-            "numbers":"2015",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922052_b2ysGEeCg1.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922057_pnDcGh9JF4.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922059_pqOztBA4hc.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922062_fpPPWAWXfZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922065_H3s8l6w18U.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922067_RICIkmS2gZ.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":345,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922052_b2ysGEeCg1.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":346,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922057_pnDcGh9JF4.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":83,
-            "name":"火火姑娘",
-            "address":null,
-            "seller":"徐常波",
-            "telephone":"15958315488",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":352,
-            "photos":"353,354,355,356",
-            "floor":3,
-            "cover":351,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:48:14",
-            "numbers":"2016",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922078_KJu32AtbMC.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922082_3zEy2CWhQQ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922085_uER1XWdNpL.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922087_SxdMPd5V4Z.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922089_JmANhBr5q5.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922091_hHzEyGQXsS.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":351,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922078_KJu32AtbMC.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":352,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922082_3zEy2CWhQQ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":84,
-            "name":"欧娜",
-            "address":null,
-            "seller":"黄满云",
-            "telephone":"18606730688",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":358,
-            "photos":"359,360,361,362",
-            "floor":3,
-            "cover":357,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:48:40",
-            "numbers":"2017-2018",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922103_YCqDZrdpHa.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922107_CoNhiZyN9W.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922110_ayemcna2SM.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922112_nGLLDBOHo8.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922114_wA6Lj2XwJy.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922116_GoNnL02Aun.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":357,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922103_YCqDZrdpHa.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":358,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922107_CoNhiZyN9W.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":85,
-            "name":"硕人",
-            "address":null,
-            "seller":"邢加标",
-            "telephone":"13868886521",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":1542,
-            "photos":"1543,1544,1545,1546",
-            "floor":3,
-            "cover":1541,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-17 02:48:11",
-            "numbers":"2019-2020",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0917/user_1_1600310577_wqQ1DyStgg.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0917/user_1_1600310594_1NzccSKep9.jpg",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0917/user_1_1600310857_zGHwjdyNcf.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0917/user_1_1600310868_MpH6pJvNCw.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0917/user_1_1600310877_iM4am7j1Uj.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0917/user_1_1600310885_4dXVID6tMp.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":1541,
-                "path":"/uploads/images/covers/2020/0917/user_1_1600310577_wqQ1DyStgg.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":1542,
-                "path":"/uploads/images/covers/2020/0917/user_1_1600310594_1NzccSKep9.jpg",
-                "type":"cover"
-            }
-        },
-        {
-            "id":86,
-            "name":"绒品汇",
-            "address":null,
-            "seller":"齐文先",
-            "telephone":"15132299191",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫，双面尼，大衣",
-            "wechat_name":null,
-            "wechat_qrcode":369,
-            "photos":"370,371,372,373",
-            "floor":3,
-            "cover":368,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:49:53",
-            "numbers":"2021-2023",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922164_Go5USphiQU.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922167_ZDMkuPVWFH.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922170_KU9yVnMUCv.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922172_u4QAn9NuuF.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922174_r4X4EmgFCz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922176_2csJRAGvTX.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":368,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922164_Go5USphiQU.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":369,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922167_ZDMkuPVWFH.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":87,
-            "name":"岗秋",
-            "address":null,
-            "seller":"唐会文",
-            "telephone":"15888332257",
-            "main_bussiness":"羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":375,
-            "photos":"376,377,378,379",
-            "floor":3,
-            "cover":374,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:50:27",
-            "numbers":"2025",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922203_wWL817CtS4.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922208_MwOXCX579c.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922210_favlaDNoAz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922212_y38PLCcXfw.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922215_aJXoF9RBDa.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922219_aHBGAuJJHD.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":374,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922203_wWL817CtS4.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":375,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922208_MwOXCX579c.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":88,
-            "name":"茉莉家",
-            "address":null,
-            "seller":"朱钥",
-            "telephone":"15857335397",
-            "main_bussiness":"针织衫，打底衫，羊毛衫，全品类",
-            "wechat_name":null,
-            "wechat_qrcode":381,
-            "photos":"382,383,384,385",
-            "floor":3,
-            "cover":380,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:50:54",
-            "numbers":"2026",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922236_snLe6fjIEj.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922241_EJ9nlFqYYE.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922246_SuNB95OCtg.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922248_Yg0iZuvhxI.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922250_EO5cgage6F.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922253_rWnmvl3K3Q.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":380,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922236_snLe6fjIEj.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":381,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922241_EJ9nlFqYYE.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":89,
-            "name":"玖梦依缘",
-            "address":null,
-            "seller":"洪光明",
-            "telephone":"18205830308",
-            "main_bussiness":"全羊毛，羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":387,
-            "photos":"388,389,390,391",
-            "floor":3,
-            "cover":386,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:51:19",
-            "numbers":"2027",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922264_Z7biwqiNhI.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922267_rzQgOkINFZ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922269_vegnO9yt2r.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922272_yYdw1NpXuz.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922273_WP1VG0v1g3.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922276_YDqryUh8i3.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":386,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922264_Z7biwqiNhI.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":387,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922267_rzQgOkINFZ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":90,
-            "name":"梦姿貂",
-            "address":null,
-            "seller":"孔祥燕",
-            "telephone":"15005838889",
-            "main_bussiness":"全品类，针织衫，开衫，羊毛衫，大衣",
-            "wechat_name":null,
-            "wechat_qrcode":393,
-            "photos":"394,395,396,397",
-            "floor":3,
-            "cover":392,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:51:49",
-            "numbers":"2028-2029",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922290_Ms0NZsxFGa.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922294_cXrUqyHGWZ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922296_GAm9zPpANl.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922298_KPolMOMKYK.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922299_KnJuzLfQRH.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922303_8UQTYwX4kv.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":392,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922290_Ms0NZsxFGa.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":393,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922294_cXrUqyHGWZ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":91,
-            "name":"MSK",
-            "address":null,
-            "seller":"沈劼",
-            "telephone":"18005739777",
-            "main_bussiness":"全品类，针织衫，羊毛衫，",
-            "wechat_name":null,
-            "wechat_qrcode":399,
-            "photos":"400,401,402,403",
-            "floor":3,
-            "cover":398,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:52:58",
-            "numbers":"2030-2031",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922325_6EVbsLRuUl.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922358_54LjSQ6lOq.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922361_4BxzWfRv4w.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922363_hkEEjLWOR0.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922365_757kHsNuX8.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922368_Kar5uoBe80.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":398,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922325_6EVbsLRuUl.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":399,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922358_54LjSQ6lOq.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":92,
-            "name":"时尚原创",
-            "address":null,
-            "seller":"周丽萍",
-            "telephone":"15857308199",
-            "main_bussiness":"全品类，针织衫，羊毛衫，全羊毛",
-            "wechat_name":null,
-            "wechat_qrcode":405,
-            "photos":"406,407,408,409",
-            "floor":3,
-            "cover":404,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:53:24",
-            "numbers":"2032",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922389_1T3CUr9Cp6.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922392_YcbdBrk66A.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922395_bjvswEVQjm.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922397_kLd7w9Co4X.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922399_CeSYxh7bXO.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922401_LS3TsElNSW.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":404,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922389_1T3CUr9Cp6.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":405,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922392_YcbdBrk66A.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":93,
-            "name":"秋织梦",
-            "address":null,
-            "seller":"黄小偶",
-            "telephone":"18657131699",
-            "main_bussiness":"羊毛羊绒衫，针织衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":411,
-            "photos":"412,413,414,415",
-            "floor":3,
-            "cover":410,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:53:56",
-            "numbers":"2033",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922413_MUttbnUpye.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922419_6DlQCIsx8r.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922421_Za1fdUqc2Q.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922423_IeECYQ5uMi.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922425_eaWLLqtzTZ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922427_IauTDTs0wG.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":410,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922413_MUttbnUpye.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":411,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922419_6DlQCIsx8r.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":94,
-            "name":"华都诗兰",
-            "address":null,
-            "seller":"张文峰",
-            "telephone":"13291525888",
-            "main_bussiness":"针织衫，羊绒衫，羊毛衫，打底衫，开衫",
-            "wechat_name":null,
-            "wechat_qrcode":417,
-            "photos":"418,419,420,421",
-            "floor":3,
-            "cover":416,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:54:55",
-            "numbers":"2035-3036",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922446_X6UGDmllrB.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922474_KUkv5BxquO.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922484_dSvmuQlUq9.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922486_bpaFqKYK7L.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922488_L3hf9oev0P.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922490_4qOsAqNbnr.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":416,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922446_X6UGDmllrB.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":417,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922474_KUkv5BxquO.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":95,
-            "name":"古妮薇尔",
-            "address":null,
-            "seller":"章雅芳",
-            "telephone":"13738269979",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":423,
-            "photos":"424,425,426,427",
-            "floor":3,
-            "cover":422,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:55:23",
-            "numbers":"2037",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922504_RGnmWZNq7I.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922510_NCtZQ3T1ID.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922514_wnKOhDer1u.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922516_zJpArpF8Ik.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922517_6WnBp0UVMD.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922520_xFSbHo4q8S.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":422,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922504_RGnmWZNq7I.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":423,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922510_NCtZQ3T1ID.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":96,
-            "name":"宝露羊",
-            "address":null,
-            "seller":"王以永",
-            "telephone":"18857795075",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫，大衣，双面尼",
-            "wechat_name":null,
-            "wechat_qrcode":429,
-            "photos":"430,431,432,433",
-            "floor":3,
-            "cover":428,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:55:57",
-            "numbers":"2038-2039",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922535_XSOlwtvMVO.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922541_79x5p3cLkI.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922543_a1KrWGER1S.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922545_MLsZo5Vj9A.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922547_ZvQDci4M9F.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922550_CkVQ7g3Fch.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":428,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922535_XSOlwtvMVO.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":429,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922541_79x5p3cLkI.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":97,
-            "name":"玖从墨",
-            "address":null,
-            "seller":"姚剑英",
-            "telephone":"13705836442",
-            "main_bussiness":"羊毛羊绒衫，裤裙，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":435,
-            "photos":"436,437,438,439",
-            "floor":3,
-            "cover":434,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:56:19",
-            "numbers":"2040-2041",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922566_XRnxxzcmWl.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922569_FO8U1Sioxd.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922571_QmZiyAAyqc.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922573_xZEb5ZoMPc.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922575_XBwxN1ZNXT.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922577_8YHuXhHPtp.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":434,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922566_XRnxxzcmWl.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":435,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922569_FO8U1Sioxd.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":98,
-            "name":"木子李",
-            "address":null,
-            "seller":"李金丽",
-            "telephone":"18368372108",
-            "main_bussiness":"全羊毛，羊毛羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":441,
-            "photos":"442,443,444,445",
-            "floor":3,
-            "cover":440,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:56:48",
-            "numbers":"2042-2043",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922588_qFYcChyqaj.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922594_qztekr6KBx.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922596_cpu1qlg5gq.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922598_nwrfq4qm5A.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922600_J9oHKCTgV8.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922602_2vjbIiDpSd.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":440,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922588_qFYcChyqaj.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":441,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922594_qztekr6KBx.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":99,
-            "name":"新羊纯",
-            "address":null,
-            "seller":"王亚萍",
-            "telephone":"13867314805",
-            "main_bussiness":"全羊毛，羊绒衫，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":447,
-            "photos":"448,449,450,451",
-            "floor":3,
-            "cover":446,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 14:57:21",
-            "numbers":"2045",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922622_gxqUYz1H4m.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922627_1l6ofBT3Bx.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922629_qtFQQGW69t.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922632_0is9Awa9t1.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922634_4uyYPSMIVJ.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922636_Yt2EJI2GuP.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":446,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922622_gxqUYz1H4m.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":447,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922627_1l6ofBT3Bx.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":100,
-            "name":"圣黛尼",
-            "address":"待定",
-            "seller":"待定",
-            "telephone":"待定",
-            "main_bussiness":"全羊毛，羊绒衫，打底衫，卫衣",
-            "wechat_name":null,
-            "wechat_qrcode":460,
-            "photos":"461,462,463,464",
-            "floor":3,
-            "cover":459,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:02:22",
-            "numbers":"2046",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922713_j9JSiKar2h.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922717_jLGd6JRwLu.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922719_HPThCPuvyk.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922721_u28DG2aVZM.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922723_xPFxFtGVkT.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922725_rUlf9Iytsc.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":459,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922713_j9JSiKar2h.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":460,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922717_jLGd6JRwLu.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":101,
-            "name":"简悦",
-            "address":null,
-            "seller":"候思梦",
-            "telephone":"13857389541",
-            "main_bussiness":"全品类，针织衫，羊绒衫，全羊毛",
-            "wechat_name":null,
-            "wechat_qrcode":466,
-            "photos":"467,468,469,470",
-            "floor":3,
-            "cover":465,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:02:58",
-            "numbers":"2047",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922959_hYsBmbBdny.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922964_pgdpQMBdRm.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922967_7z00PjTOIG.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922968_hEjf1NUagH.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922970_dZFDgMjfYE.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599922972_e0xd13iaRx.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":465,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922959_hYsBmbBdny.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":466,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922964_pgdpQMBdRm.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":102,
-            "name":"塞绒鹿",
-            "address":null,
-            "seller":"张瑜",
-            "telephone":"13819032207",
-            "main_bussiness":"全品类，羊毛羊绒衫",
-            "wechat_name":null,
-            "wechat_qrcode":472,
-            "photos":"473,474,475,476",
-            "floor":3,
-            "cover":471,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:03:43",
-            "numbers":"2048",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599922997_fyKfRBtqzt.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923003_0FU0cXsVOs.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923005_wiEQDWkpS6.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923007_jCMb1UtpHs.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923009_O9N2PDCRqq.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923011_QXwi9yZuqi.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":471,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599922997_fyKfRBtqzt.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":472,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923003_0FU0cXsVOs.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":103,
-            "name":"艾妞",
-            "address":null,
-            "seller":"吴秋阳",
-            "telephone":"18224224007",
-            "main_bussiness":"全品类，羊毛羊绒衫",
-            "wechat_name":null,
-            "wechat_qrcode":478,
-            "photos":"479,480,481,482",
-            "floor":3,
-            "cover":477,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:05:24",
-            "numbers":"2049",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923107_nz2toH2GIh.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923114_EucwV1oZwB.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923115_YFPpBdZQcS.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923117_e4dnbIc1xK.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923119_Z0FZ4ia6fk.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923121_8ZVKEgtVoU.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":477,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923107_nz2toH2GIh.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":478,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923114_EucwV1oZwB.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":104,
-            "name":"悦莱春",
-            "address":null,
-            "seller":"韩叶忠",
-            "telephone":"13705839861",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":484,
-            "photos":"485,486,487,488",
-            "floor":3,
-            "cover":483,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:05:56",
-            "numbers":"2050-2051",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923136_YGQTtxiTGb.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923144_oN82scav3s.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923145_PNrKLCteYO.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923149_RtMgckOpsR.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923150_wskow2rWdb.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923153_FQXXs5jRoT.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":483,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923136_YGQTtxiTGb.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":484,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923144_oN82scav3s.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":105,
-            "name":"蕙尚",
-            "address":null,
-            "seller":"邢卫惠",
-            "telephone":"18668302678",
-            "main_bussiness":"全品类羊毛衫，打底衫，大衣",
-            "wechat_name":null,
-            "wechat_qrcode":490,
-            "photos":"491,492,493,494",
-            "floor":3,
-            "cover":489,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:06:30",
-            "numbers":"2052",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923168_0HushAKhGk.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923175_6lt4nTBPBJ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923178_LoeaAs7gLm.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923180_pKLSLUPBKI.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923182_MunNCnIOiF.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923184_u0AyD5kvyL.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":489,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923168_0HushAKhGk.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":490,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923175_6lt4nTBPBJ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":106,
-            "name":"涵芯研",
-            "address":null,
-            "seller":"陈启宽",
-            "telephone":"13216305898",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":496,
-            "photos":"497,498,499,500",
-            "floor":3,
-            "cover":495,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:07:06",
-            "numbers":"2053",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923200_6IaJuvFE6p.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923206_hR6eLc4QcD.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923208_84J81T5JIy.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923211_LddtgFAG9s.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923213_X6cGMWHCSN.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923216_3P5XJz703a.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":495,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923200_6IaJuvFE6p.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":496,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923206_hR6eLc4QcD.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":107,
-            "name":"千丝璐",
-            "address":null,
-            "seller":"崔丹丹",
-            "telephone":"18931210509",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":502,
-            "photos":"503,504,505,506",
-            "floor":3,
-            "cover":501,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:07:32",
-            "numbers":"2055",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923237_O6c7pUGsRy.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923240_dNCRxzZ2Bm.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923243_PVWI1Ahblv.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923244_kVw7055NYf.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923246_STXLv2YrT9.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923248_SE1DbGT3ST.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":501,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923237_O6c7pUGsRy.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":502,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923240_dNCRxzZ2Bm.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":108,
-            "name":"纯艾亿美",
-            "address":null,
-            "seller":"刘春艳",
-            "telephone":"15868333239",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":508,
-            "photos":"509,510,511,512",
-            "floor":3,
-            "cover":507,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:08:18",
-            "numbers":"2056",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923261_m5LTbw1r4l.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923265_RIPNFiKYGQ.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923267_YBY4UUZyBd.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923269_uFqx9KDl8W.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923270_m766SEkXE7.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923273_T3oLasmhYD.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":507,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923261_m5LTbw1r4l.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":508,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923265_RIPNFiKYGQ.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":109,
-            "name":"水珠儿",
-            "address":null,
-            "seller":"王晓群",
-            "telephone":"18105835836",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":514,
-            "photos":"515,516,517,518",
-            "floor":3,
-            "cover":513,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:08:48",
-            "numbers":"2057",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923308_nMd3Vfr2AC.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923313_sNMG7S1HOK.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923316_qz6rgOjLpb.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923318_q1wKvs6KxS.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923320_3G2czmFFez.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923323_Mg02f33hO8.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":513,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923308_nMd3Vfr2AC.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":514,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923313_sNMG7S1HOK.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":110,
-            "name":"SIS锐妍",
-            "address":null,
-            "seller":"蔡琴",
-            "telephone":"18767395151",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":521,
-            "photos":"520,522,523,524",
-            "floor":3,
-            "cover":519,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:09:16",
-            "numbers":"2058-2059",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923338_FENowMFZXm.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923347_zYlH6YBhMM.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923346_JotiBnS7hw.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923349_gGVWlbmpfA.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923351_utemIg6HNv.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923353_CpyaOhT9h6.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":519,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923338_FENowMFZXm.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":521,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923347_zYlH6YBhMM.png",
-                "type":"cover"
-            }
-        },
-        {
-            "id":111,
-            "name":"旸贝儿",
-            "address":null,
-            "seller":"严红楼",
-            "telephone":"18858315569",
-            "main_bussiness":"全品类，羊毛羊绒衫，全羊毛，打底衫",
-            "wechat_name":null,
-            "wechat_qrcode":526,
-            "photos":"527,528,529,530",
-            "floor":3,
-            "cover":525,
-            "status":1,
-            "created_at":null,
-            "updated_at":"2020-09-12 15:09:44",
-            "numbers":"2060-2061",
-            "cvoer_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923368_8uWtrxBDCV.jpg",
-            "wechat_qrcode_path":"http://47.110.135.173/maofancity/admin/public/uploads/images/covers/2020/0912/user_1_1599923375_X1h59ot7yz.png",
-            "photos_path":[
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923377_DVARGsmgiL.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923379_aQ7f5L0ELs.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923381_WVlyjxGcVD.jpg",
-                "http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0912/user_1_1599923383_ttH8eGkPPF.jpg"
-            ],
-            "floor_info":{
-                "id":3,
-                "name":"2F",
-                "type":"floor",
-                "value":"2"
-            },
-            "cover_info":{
-                "id":525,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923368_8uWtrxBDCV.jpg",
-                "type":"cover"
-            },
-            "wechat_qrcode_info":{
-                "id":526,
-                "path":"/uploads/images/covers/2020/0912/user_1_1599923375_X1h59ot7yz.png",
-                "type":"cover"
-            }
-        }
-    ],
-    "links":{
-        "first":"http://47.110.135.173/maofancity/admin/public//home/shop?page=1",
-        "last":"http://47.110.135.173/maofancity/admin/public//home/shop?page=2",
-        "prev":null,
-        "next":"http://47.110.135.173/maofancity/admin/public//home/shop?page=2"
-    },
-    "meta":{
-        "current_page":1,
-        "from":1,
-        "last_page":2,
-        "path":"http://47.110.135.173/maofancity/admin/public//home/shop",
-        "per_page":"36",
-        "to":36,
-        "total":59
-    }
+    data: [
+        { name: 'Za原创工厂店', numbers: '201' },
+        { name: 'CC ', numbers: '202' },
+        { name: '简沐雅', numbers: '203A' },
+        { name: '1989', numbers: '203B' },
+        { name: '悦悦家', numbers: '205' },
+        { name: '花姐家', numbers: '206' },
+        { name: '大里DL', numbers: '206' },
+        { name: '名门淑媛', numbers: '207' },
+        { name: '1n', numbers: '208A' },
+        { name: '欧颜笛', numbers: '208B' },
+        { name: '影悦', numbers: '209' },
+        { name: 'C.Q.K', numbers: '210A' },
+        { name: '法倍儿', numbers: '210B' },
+        { name: '琪', numbers: '211A' },
+        { name: '依菲亚', numbers: '211B' },
+        { name: '木衣家', numbers: '212A' },
+        { name: 'HY', numbers: '212B' },
+        { name: '喜装', numbers: '213' },
+        { name: '欧绮', numbers: '215A' },
+        { name: '读雅', numbers: '215B' },
+        { name: '依仕维', numbers: '216A' },
+        { name: '依仁弗', numbers: '216B' },
+        { name: 'CLC', numbers: '217A' },
+        { name: '红门', numbers: '217B' },
+        { name: '浅庄', numbers: '218A' },
+        { name: '圣宝纳', numbers: '218B' },
+        { name: '圣玛歌第', numbers: '219A' },
+        { name: '兴概念', numbers: '219B' },
+        { name: '慕鑫然', numbers: '220-A' },
+        { name: '憨厚熊', numbers: '220-B' },
+        { name: '简兮', numbers: '221-A' },
+        { name: '地铁站', numbers: '221-B' },
+        { name: 'Miss Jiang', numbers: '222A' },
+        { name: '木棉', numbers: '222B' },
+        { name: '宝歌丽娅', numbers: '223' },
+        { name: '浅驰', numbers: '225' },
+        { name: '后尔', numbers: '226A' },
+        { name: '百格姿羽', numbers: '226B' },
+        { name: 'Xu+', numbers: '227A' },
+        { name: 'nice+', numbers: '227B' },
+        { name: '欣盟', numbers: '228A' },
+        { name: '知尚', numbers: '228B' },
+        { name: '简尚秋', numbers: '229A' },
+        { name: '设格', numbers: '229B' },
+        { name: '欧衣贝', numbers: '230A' },
+        { name: '主颜', numbers: '230B' },
+        { name: '唯思', numbers: '231A' },
+        { name: '泡菜', numbers: '231-B' },
+        { name: '谷彩', numbers: '232A' },
+        { name: '舒适区', numbers: '232B' },
+        { name: '麦士米尼', numbers: '233' },
+        { name: '佳思博', numbers: '235/236' },
+        { name: '艾米', numbers: '237A' },
+        { name: '简新', numbers: '237B' },
+        { name: '梦芭萝', numbers: '238' },
+        { name: 'C.NC', numbers: '239A' },
+        { name: 'xoxo', numbers: '239B' },
+        { name: '美丽美丽', numbers: '240A' },
+        { name: 'UGT', numbers: '240B' },
+        { name: 'KC', numbers: '241A' },
+        { name: 'Karma', numbers: '241B' },
+        { name: '雪中画', numbers: '242A' },
+        { name: '迪奥马克', numbers: '242B' },
+        { name: '佳引', numbers: '243A' },
+        { name: '那火', numbers: '243B' },
+        { name: '妙妞', numbers: '245A' },
+        { name: 'CC欧货', numbers: '245B' },
+        { name: '言社', numbers: '246' },
+        { name: '所靓', numbers: '247' },
+        { name: '宝歌丽娅', numbers: '248/249' },
+        { name: '五洲羊', numbers: '250/251' }
+      ]
 }
-
-const floor3 = [
-    { name: '览丰围巾3', numbers: '1001-1002', to: ''}
-]
+const floor3 = {
+    data: [
+        { name: '船皇', numbers: '301' },
+        { name: '浅奈香', numbers: '302' },
+        { name: '淑社', numbers: '303' },
+        { name: '爱秀街区', numbers: '305-A' },
+        { name: '雪纽', numbers: '305-B' },
+        { name: '荔枝', numbers: '306A' },
+        { name: '薇弗妮', numbers: '306B' },
+        { name: '浅爱', numbers: '307' },
+        { name: 'AQ', numbers: '308' },
+        { name: 'DMK', numbers: '309A' },
+        { name: '意林', numbers: '309B' },
+        { name: '凹金', numbers: '310' },
+        { name: 'queenlili', numbers: '311A' },
+        { name: '花雨伞', numbers: '311B' },
+        { name: '宝蓝薇', numbers: '312' },
+        { name: '貂行天下', numbers: '313' },
+        { name: '犀牧羊', numbers: '315A' },
+        { name: '酋沫', numbers: '315B' },
+        { name: '浅爱', numbers: '316' },
+        { name: 'YIXFENG依枫', numbers: '317' },
+        { name: '吉门', numbers: '318' },
+        { name: '原一', numbers: '319A' },
+        { name: 'BALALA', numbers: '319B' },
+        { name: 'CINQSPET', numbers: '320A' },
+        { name: 'NICE栗色', numbers: '320B' },
+        { name: '法姿芬', numbers: '321A' },
+        { name: '韩诗度', numbers: '321B' },
+        { name: '妃形', numbers: '322A' },
+        { name: '纪凡蒂娜', numbers: '322B' },
+        { name: '唐古拉多斯', numbers: '323' },
+        { name: '堡帝鹿', numbers: '325A' },
+        { name: '鸥诗麦', numbers: '325B' },
+        { name: '霸绒', numbers: '326-A' },
+        { name: ' 欧麓', numbers: '326-B' },
+        { name: '珊珊', numbers: '327A' },
+        { name: '原创时装MG', numbers: '327B' },
+        { name: '浅兰朵', numbers: '328A' },
+        { name: '圣菲绒', numbers: '328B' },
+        { name: '纽缦姿', numbers: '329' },
+        { name: '雏秋', numbers: '330' },
+        { name: '自由基调', numbers: '331-A' },
+        { name: '子汐', numbers: '331-B' },
+        { name: '凯蒂斯', numbers: '332A' },
+        { name: '留白原创', numbers: '332B' },
+        { name: '莫娜', numbers: '333A' },
+        { name: '佐派欧', numbers: '333B' },
+        { name: '喜喜尼', numbers: '335' },
+        { name: '简嘉', numbers: '336' },
+        { name: 'Eleven原创', numbers: '337A' },
+        { name: '季枫', numbers: '337B' },
+        { name: '欧尼', numbers: '338A' },
+        { name: '罗蔓格', numbers: '338B' },
+        { name: '圣羽', numbers: '339A' },
+        { name: '祺影', numbers: '339B' },
+        { name: '初妆', numbers: '340' },
+        { name: '澜扣', numbers: '340' },
+        { name: '雅扣', numbers: '341-A' },
+        { name: '法赛欧', numbers: '341-B' },
+        { name: '存在感', numbers: '342A' },
+        { name: '奢秋', numbers: '342B' },
+        { name: '柒月', numbers: '343A' },
+        { name: '希若妮', numbers: '343B' },
+        { name: '上步', numbers: '345A' },
+        { name: '糯米', numbers: '345B' },
+        { name: '洛赫亿', numbers: '346' },
+        { name: '引象时装', numbers: '347' },
+        { name: '欧莲娜（oulianna）', numbers: '348/349' },
+        { name: '惟拉妮卡', numbers: '350/351' }
+      ]
+}
+const floor4 = {
+    data: [
+        { name: '老张', numbers: '401/402' },
+        { name: '柚吉吉', numbers: '403A' },
+        { name: '围巾印象', numbers: '403B' },
+        { name: '雪蕾娅', numbers: '405/406' },
+        { name: '伊吻', numbers: '407A' },
+        { name: '伊魅儿', numbers: '407B' },
+        { name: '柏君燕', numbers: '408A' },
+        { name: '尚莹', numbers: '408B' },
+        { name: 'ECKE', numbers: '409-A' },
+        { name: '聚宝绒', numbers: '409-B' },
+        { name: '后', numbers: '410' },
+        { name: '肯尼国际', numbers: '411' },
+        { name: '播撒', numbers: '412' },
+        { name: '巴尼圣迪', numbers: '413' },
+        { name: '艾莎瑞亚', numbers: '415A' },
+        { name: '优格妮', numbers: '415B' },
+        { name: '藏绒莎', numbers: '416A' },
+        { name: '初九', numbers: '416B' },
+        { name: '吉祥吉', numbers: '417-A' },
+        { name: '沁雨潮品', numbers: '417-B' },
+        { name: '雯雯', numbers: '418-A' },
+        { name: '霜露', numbers: '418-B' },
+        { name: '卡诺', numbers: '419A' },
+        { name: 'P&C', numbers: '419B' },
+        { name: '晴倩', numbers: '420A' },
+        { name: '韩曦格', numbers: '420B' },
+        { name: '欧卡斐', numbers: '421' },
+        { name: '"貂大姐"', numbers: '422A' },
+        { name: '岑依', numbers: '422B' },
+        { name: '纯米拉', numbers: '423A' },
+        { name: '懂妞', numbers: '423B' },
+        { name: '知美惠', numbers: '425' },
+        { name: 'Y·R悠然', numbers: '426A' },
+        { name: '菲菲', numbers: '426B' },
+        { name: '珍熙', numbers: '427A' },
+        { name: '仇小姐', numbers: '427B' },
+        { name: '斯逸徕', numbers: '428A' },
+        { name: '第五季', numbers: '428B' },
+        { name: '艾柏卡', numbers: '429' },
+        { name: 'T·HS', numbers: '430' },
+        { name: '吉上羊绒', numbers: '431A' },
+        { name: '卡牧羊', numbers: '431B' },
+        { name: '5·G衣橱', numbers: '432A' },
+        { name: 'T.O+', numbers: '432' },
+        { name: '张家', numbers: '433' },
+        { name: '慕诚服饰', numbers: '435' },
+        { name: 'AB88', numbers: '436' },
+        { name: 'V F Y', numbers: '437A' },
+        { name: '冯莞儿', numbers: '437B' },
+        { name: '余兰衣谷', numbers: '438' },
+        { name: '米洛菲', numbers: '439A' },
+        { name: '进行时', numbers: '439B' },
+        { name: '络绎', numbers: '440A' },
+        { name: '桂圆', numbers: '440B' },
+        { name: '芭比娅', numbers: '441A' },
+        { name: '目颜', numbers: '441B' },
+        { name: 'Mei·Z美织', numbers: '442A' },
+        { name: '语街', numbers: '442B' },
+        { name: '圣简裳', numbers: '443A' },
+        { name: '世纪隆达', numbers: '443B' },
+        { name: '漂亮本色', numbers: '445' },
+        { name: '小冉', numbers: '446A' },
+        { name: 'V.V', numbers: '446B' },
+        { name: '宝格格', numbers: '447A' },
+        { name: '漫欧', numbers: '447B' },
+        { name: '于悦', numbers: '448' },
+        { name: 'CMV欧韩女装工厂店', numbers: '449' },
+        { name: '黄鹤', numbers: '450' },
+        { name: '原色', numbers: '451' }
+      ]
+}
+const floor5 = {
+    data: [
+        { name: '范西亚', numbers: '501/502' },
+        { name: '绒鑫', numbers: '503' },
+        { name: 'Cindy辛迪', numbers: '505' },
+        { name: '进行时', numbers: '506' },
+        { name: 'waiting原创时装', numbers: '507A' },
+        { name: '羊纯', numbers: '507B' },
+        { name: '诺琳兰', numbers: '508' },
+        { name: '艾慕尔', numbers: '509' },
+        { name: '文硕家', numbers: '510' },
+        { name: '圣唯吉', numbers: '511A' },
+        { name: '浅姿曼', numbers: '511B' },
+        { name: '卡列浓', numbers: '512A' },
+        { name: '恒源玫瑰', numbers: '512B' },
+        { name: '卡春', numbers: '513' },
+        { name: '浅爱', numbers: '515' },
+        { name: '阿米', numbers: '516A' },
+        { name: '暗香盈袖', numbers: '516b' },
+        { name: '九通', numbers: '517A' },
+        { name: '韩歌', numbers: '517B' },
+        { name: '斯卡琳', numbers: '518/519A' },
+        { name: '杉宝丽', numbers: '520A' },
+        { name: 'Miss.Yu', numbers: '520B' },
+        { name: '麻豆可可', numbers: '521A' },
+        { name: '纯蓉', numbers: '521B' },
+        { name: '尚兔', numbers: '522A' },
+        { name: 'JP', numbers: '522B' },
+        { name: '风慕原创', numbers: '523' },
+        { name: '艾斯杰围巾', numbers: '525' },
+        { name: '末末', numbers: '526' },
+        { name: '浣纱女', numbers: '527' },
+        { name: '婕歌', numbers: '528' },
+        { name: '欧洋纯', numbers: '529' },
+        { name: '牧绵羊', numbers: '530' },
+        { name: '本拉•拉丹', numbers: '531A' },
+        { name: '玲玲家', numbers: '531B' },
+        { name: '洲旭', numbers: '532' },
+        { name: 'LADY.M贝贝家', numbers: '533' },
+        { name: '天沐', numbers: '535' },
+        { name: '依铭尚', numbers: '536' },
+        { name: '第一辑', numbers: '537' },
+        { name: '金鸿源', numbers: '538' },
+        { name: '皇后', numbers: '539A' },
+        { name: 'C6C7', numbers: '539B' },
+        { name: '伊利思郎', numbers: '540' },
+        { name: '湫绒', numbers: '541-A' },
+        { name: '一秘六', numbers: '541-B' },
+        { name: 'M.9', numbers: '542' },
+        { name: '雅妞', numbers: '543A' },
+        { name: '秋贝儿', numbers: '543B' },
+        { name: '竹芙尼', numbers: '545' },
+        { name: '艺颖', numbers: '546' },
+        { name: '八爷', numbers: '547' },
+        { name: '简慕妮', numbers: '548' },
+        { name: '伊范', numbers: '549' },
+        { name: '瑶池玫瑰', numbers: '550' },
+        { name: '欧诗诗', numbers: '551' }
+      ]
+}
+const floor6 = {
+    data: [
+        { name: '羽堤', numbers: '601/602' },
+        { name: '石车围巾/YT益堂服饰', numbers: '603' },
+        { name: '恒源祥', numbers: '605' },
+        { name: '埃菲儿', numbers: '606' },
+        { name: '麦纳利', numbers: '607' },
+        { name: '佐佐木', numbers: '608A' },
+        { name: '尤范尔', numbers: '608B' },
+        { name: '依喜', numbers: '609A' },
+        { name: '薇卡', numbers: '609B' },
+        { name: '初心', numbers: '610A' },
+        { name: '杭驰', numbers: '610B' },
+        { name: '原创工厂店', numbers: '611' },
+        { name: '谜路', numbers: '612A' },
+        { name: 'M·L茉莉', numbers: '612B' },
+        { name: '雪袖', numbers: '613' },
+        { name: '嫁装', numbers: '615' },
+        { name: '绒之彩', numbers: '616A' },
+        { name: '七七', numbers: '616B' },
+        { name: '思蒂儿', numbers: '617A' },
+        { name: 'V+', numbers: '617B' },
+        { name: '后简', numbers: '618' },
+        { name: '麦子绮丽', numbers: '619' },
+        { name: 'W+', numbers: '620' },
+        { name: '', numbers: '621' },
+        { name: '澳卡拉', numbers: '622' },
+        { name: '丹路迪奥', numbers: '623' },
+        { name: 'XAF', numbers: '625/626' },
+        { name: '卡姿绒', numbers: '627/628' },
+        { name: '蒂芙佳人', numbers: '629' },
+        { name: 'LR鹿荣', numbers: '630' },
+        { name: '俞氏名门', numbers: '631' },
+        { name: '菲姿雅琪', numbers: '632' },
+        { name: '月华', numbers: '633' },
+        { name: '我的芭丽', numbers: '635/636' },
+        { name: 'CC', numbers: '637' },
+        { name: 'ER.Z二主', numbers: '638' },
+        { name: 'L·Z原创', numbers: '639' },
+        { name: '卡姿绒（靓莲）', numbers: '640/641' },
+        { name: '广蝶', numbers: '642' },
+        { name: '柒贝尔', numbers: '643' },
+        { name: '依恋', numbers: '645A' },
+        { name: '无店名', numbers: '645B' },
+        { name: 'HS韩国定制', numbers: '646' },
+        { name: '多麦', numbers: '647' },
+        { name: '亮貂', numbers: '648/649' },
+        { name: '若文', numbers: '650' },
+        { name: '叫我女王', numbers: '651' }
+      ]
+}
+const floor7 = {
+    data: [
+        { name: '麦瑟', numbers: '701/702' },
+        { name: 'C.P', numbers: '703' },
+        { name: 'LITTLE.FAN 点范', numbers: '705' },
+        { name: '赜羽家', numbers: '706/707/708' },
+        { name: '名丝曼', numbers: '709' },
+        { name: '影悦', numbers: '710' },
+        { name: '雅绒优', numbers: '711' },
+        { name: '兰非思', numbers: '712' },
+        { name: '娅秋', numbers: '713' },
+        { name: '鹿亚服饰', numbers: '715/716' },
+        { name: 'ZOZO', numbers: '717' },
+        { name: '芊绒蒂儿', numbers: '718' },
+        { name: '皮尔喜璐', numbers: '719' },
+        { name: '金翎雪', numbers: '720' },
+        { name: '皮尔世家', numbers: '721' },
+        { name: '聚衣彩', numbers: '722' },
+        { name: '佐菲米亚', numbers: '723' },
+        { name: '北极貂', numbers: '725/726' },
+        { name: '梵玛羊绒', numbers: '727/728' },
+        { name: '金牧盾', numbers: '729' },
+        { name: '可奈斯', numbers: '730' },
+        { name: '五洲羊', numbers: '731/732/733' },
+        { name: '秋凤凰 ', numbers: '735/736/737' },
+        { name: '伊谷', numbers: '738/739' },
+        { name: '禾玛氏', numbers: '740' },
+        { name: 'M-8', numbers: '741' },
+        { name: '天使的微笑', numbers: '742' },
+        { name: '欧妮裳', numbers: '743' },
+        { name: '梦幻蝶影', numbers: '745' },
+        { name: '好姑娘', numbers: '746/747' },
+        { name: '小芳裤业', numbers: '748/749' },
+        { name: '五洲洋', numbers: '750/751' }
+      ]
+}
+const floor8 = {
+    data: [
+        { name: '契西卡尼', numbers: '801/802/803/805' },
+        { name: '路登国际', numbers: '806' },
+        { name: '琴琴服饰', numbers: '807' },
+        { name: '', numbers: '808' },
+        { name: '展之威', numbers: '809' },
+        { name: '香港宝龙老爷车', numbers: '810' },
+        { name: 'P·R·D', numbers: '811' },
+        { name: '稻草羊', numbers: '812' },
+        { name: '鄂伦雅格', numbers: '813' },
+        { name: '唐剑', numbers: '815' },
+        { name: '郏科', numbers: '816' },
+        { name: '银珠', numbers: '817/818' },
+        { name: '酷酷公子羊绒', numbers: '819' },
+        { name: '杜嘉歌弟', numbers: '820' },
+        { name: '牧萨', numbers: '821' },
+        { name: '汉成服饰', numbers: '822' },
+        { name: '草原羊', numbers: '823' },
+        { name: '夏帝玛', numbers: '825' },
+        { name: '汉维男装', numbers: '826' },
+        { name: '爱琴鸟', numbers: '827' },
+        { name: '百尊汇', numbers: '828' },
+        { name: '华迪堡', numbers: '829' },
+        { name: '明润', numbers: '830' },
+        { name: '腾莱王', numbers: '831' },
+        { name: '芬迪欧歌', numbers: '832' },
+        { name: '泰子隆', numbers: '833' },
+        { name: '安东尼', numbers: '835/836' },
+        { name: '空置', numbers: '837' },
+        { name: '香港老爷车（杜丘）', numbers: '838' },
+        { name: '七彩方舟', numbers: '839/840' },
+        { name: '诚宇', numbers: '841' },
+        { name: '顿斯雨', numbers: '842' },
+        { name: '瓦多鹿王', numbers: '843' },
+        { name: '欧塞德斯', numbers: '845' },
+        { name: '名臣马', numbers: '846' },
+        { name: '戎太子', numbers: '847' },
+        { name: '无名优品', numbers: '848/849' },
+        { name: '博杰才子', numbers: '850/851' }
+      ]
+}
+const floor9 = {
+    data: [
+        { name: '修生', numbers: '901/902/903' },
+        { name: '聚绒羊', numbers: '905/906/907' },
+        { name: '伊利诺王', numbers: '908' },
+        { name: '宝格王子', numbers: '909' },
+        { name: '亿源羊', numbers: '910' },
+        { name: '名邦迪诺', numbers: '911' },
+        { name: '塞外明珠', numbers: '912' },
+        { name: '卡狄玛特', numbers: '913' },
+        { name: '普家斯诺', numbers: '915/916' },
+        { name: '古莱文', numbers: '917' },
+        { name: '羊源羊', numbers: '918' },
+        { name: '九鹿王', numbers: '919' },
+        { name: '宝马地亚', numbers: '920' },
+        { name: '意大利皮尔卡丹', numbers: '921' },
+        { name: '曼哈雷', numbers: '922' },
+        { name: '皮尔卡丹', numbers: '923' },
+        { name: '裕源', numbers: '925' },
+        { name: '唐唐世家', numbers: '926' },
+        { name: '艾克澳坤', numbers: '927' },
+        { name: 'amnion', numbers: '928' },
+        { name: '金鹰爵士', numbers: '929/930' },
+        { name: '圣家玛奇', numbers: '931' },
+        { name: '艾菲狐', numbers: '932' },
+        { name: '藏澳羊', numbers: '933' },
+        { name: '法狄诗', numbers: '935/936' },
+        { name: '华鲨', numbers: '937/938' },
+        { name: '恒爱羊', numbers: '939' },
+        { name: '一衫凤凰', numbers: '940' },
+        { name: '发财羊', numbers: '941' },
+        { name: '青藏澳群', numbers: '942' },
+        { name: '汤米狐', numbers: '943' },
+        { name: '拓展针织', numbers: '945' },
+        { name: '威力顿金熊', numbers: '946' },
+        { name: '百迪隆裤业', numbers: '947' },
+        { name: '恒源祥', numbers: '948/949' },
+        { name: '霸主', numbers: '950/951' }
+      ]
+}
+const floor10 = {
+    data: [
+        { name: '空', numbers: '1001' },
+        { name: '空', numbers: '1002' },
+        { name: '空', numbers: '1003 ' },
+        { name: '小平服饰', numbers: '1005 ' },
+        { name: 'H·韩', numbers: '1006 ' },
+        { name: '格莱美', numbers: '1007 ' },
+        { name: '黛米奥DaiMiAo', numbers: '1008 ' },
+        { name: '慕·倾辰', numbers: '1009 ' },
+        { name: 'ACDCC原创女装', numbers: '1010 ' },
+        { name: '里墨舍南', numbers: '1011 ' },
+        { name: '予西', numbers: '1012 ' },
+        { name: 'EV羊绒', numbers: '1013 ' },
+        { name: '世贸大食堂', numbers: '1015' },
+        { name: '衣玲珑', numbers: '1016' },
+        { name: '737BCF潮牌', numbers: '1017' },
+        { name: 'QING+', numbers: '1018' },
+        { name: '斐辣妮', numbers: '1019' },
+        { name: 'DIKARONG狄卡绒', numbers: '1020' },
+        { name: 'RMGN时尚女装', numbers: '1021' },
+        { name: '直播供货', numbers: '1022' },
+        { name: '仓库', numbers: '1023' },
+        { name: '空', numbers: '1025' },
+        { name: '空', numbers: '1026' },
+        { name: '小卖部', numbers: '小卖部' }
+      ]
+}
 
 const data = [
     floor1,
     floor2,
     floor3,
+    floor4,
+    floor5,
+    floor6,
+    floor7,
+    floor8,
+    floor9,
+    floor10,
 ]
 
 export default data
