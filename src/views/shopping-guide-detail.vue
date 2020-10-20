@@ -1,48 +1,20 @@
 <template>
     <div class="mod-body">
         <div class="left-part">
-            <div class="shop-name">览丰围巾</div>
+            <div class="shop-name">{{name}}</div>
             <div class="split-line "></div>
             <div class="base-info">
                 <div class="column-item">
                     <div>
                         <div class="title-info margin-top-30">
                             <div class="title-icon">
-                                <img src="" alt="">
-                            </div>
-                            <div class="title">经营户/seller:</div>
-                        </div>
-                        <div class="detail-info margin-top-6">{{data.seller}}</div>
-                    </div>
-                    <div>
-                        <div class="title-info margin-top-30">
-                            <div class="title-icon">
-                                <img src="" alt="">
-                            </div>
-                            <div class="title">联系电话/Telephone:</div>
-                        </div>
-                        <div class="detail-info margin-top-6">{{data.telephone}}</div>
-                    </div>
-                    <div>
-                        <div class="title-info margin-top-30">
-                            <div class="title-icon">
-                                <img src="" alt="">
-                            </div>
-                            <div class="title">主营/Main business:</div>
-                        </div>
-                        <div class="detail-info margin-top-6">{{data.main_bussiness}}</div>
-                    </div>
-                </div>
-                <div class="column-item">
-                    <div>
-                        <div class="title-info margin-top-30">
-                            <div class="title-icon">
-                                <img src="" alt="">
+                                <img src="../assets/shopping-guide-detail/icon.png" class="icon">
                             </div>
                             <div class="title">店主微信/Wechat:</div>
                         </div>
                         <div class="detail-info margin-top-6">
-                            <img :src="data.wechat_qrcode_path" alt="">
+                            <img :src="weXinImg" class="wexin" v-if="weXinImg">
+                            <span v-else>信息更新中</span>
                         </div>
                     </div>
                 </div>
@@ -50,16 +22,16 @@
         </div>
         <div class="right-part">
             <div class="img-item">
-                <img data-v-3af36e76="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831305_6ryLZrYT5w.jpg">
+                <img :src="img1" v-if="img1">
             </div>
             <div class="img-item">
-                <img data-v-3af36e76="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831305_6ryLZrYT5w.jpg">
+                <img :src="img2" v-if="img2">
             </div>
             <div class="img-item">
-                <img data-v-3af36e76="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831305_6ryLZrYT5w.jpg">
+                <img :src="img3" v-if="img3">
             </div>
             <div class="img-item">
-                <img data-v-3af36e76="" src="http://47.110.135.173/maofancity/admin/public/uploads/images/photos/2020/0911/user_1_1599831305_6ryLZrYT5w.jpg">
+                <img :src="img4" v-if="img4">
             </div>
         </div>
     </div>
@@ -70,14 +42,44 @@ export default {
     name: 'shoppingGuideDetail',
     data() {
         return {
-            data: {}
+            weXinImg: '',
+            img1: '',
+            img2: '',
+            img3: '',
+            img4: '',
+            name: '',
         }
     },
     mounted() {
         let floor = this.$route.query.floor
         let shop = this.$route.query.shop
         let data = floorData[floor].data
-        this.data = floorData[floor].data.filter(v=>v.id==shop)[0]
+        this.name = floorData[floor].data.filter(v=>v.numbers==shop)[0].name
+        try{
+            this.weXinImg = require(`../assets/shopping-guide-detail/${shop}/weixin.png`)
+        }catch{
+            this.weXinImg = ''
+        }
+        try{
+            this.img1 = require(`../assets/shopping-guide-detail/${shop}/pic1.png`)
+        }catch{
+            this.img1 = ''
+        }
+        try{
+            this.img2 = require(`../assets/shopping-guide-detail/${shop}/pic2.png`)
+        }catch{
+            this.img2 = ''
+        }
+        try{
+            this.img3 = require(`../assets/shopping-guide-detail/${shop}/pic3.png`)
+        }catch{
+            this.img3 = ''
+        }
+        try{
+            this.img4 = require(`../assets/shopping-guide-detail/${shop}/pic4.png`)
+        }catch{
+            this.img4 = ''
+        }
     }
 }
 </script>
@@ -173,5 +175,13 @@ export default {
             }
         }
     }
+}
+.wexin{
+    width: 310px;
+    max-width: 420px;
+}
+.icon{
+    width: 37px;
+    height: 37px;
 }
 </style>
