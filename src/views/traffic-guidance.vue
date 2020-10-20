@@ -50,6 +50,7 @@ export default {
     border-radius: 24px;
     position: relative;
     .trafficMap{
+        width: calc(100% - 175px);
         height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -69,6 +70,7 @@ export default {
         img{
             max-width: 1089px;
             max-height: 666px;
+            border-radius: 24px;
         }
     }
 }
@@ -82,6 +84,7 @@ export default {
     }
 }
 .guide-storey{
+    margin-left: 30px;
     padding-left: 15px;
     width: 145px;
     border-radius: 0;

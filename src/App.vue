@@ -25,6 +25,7 @@ html, body, div, span, a{
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 // tab头
 .tab{

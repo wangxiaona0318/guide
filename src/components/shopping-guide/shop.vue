@@ -5,7 +5,8 @@
                 <img src="../../assets/arrows/left.png" alt="">
             </div>
             <div class="wrap">
-                <router-link v-for="(v, k) in data" :key="k" :to="`/shopping-guide-detail?floor=${index}&shop=${v.id}`">
+                <!--  :to="`/shopping-guide-detail?floor=${index}&shop=${v.id}`" -->
+                <router-link v-for="(v, k) in data" :key="k" to="">
                     <div class="guide-item">
                         <div class="name">{{v.name}}</div>
                         <div class="numbers">{{v.numbers}}</div>

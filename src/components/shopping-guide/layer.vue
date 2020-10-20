@@ -1,5 +1,6 @@
 <template>
     <div class="guide-body">
+        <img src="../../assets/header/qr.png" class="qr-img">
         <div class="guide-picture-content">
             <div class="guide-picture">
                 <div>
@@ -11,10 +12,25 @@
             <div class="storey-content">
                 <div
                     @click="imgHandler(k)"
-                    class="storey-item"
-                    :class="{active: floor === k}"
+                    
                     v-for="(v, k) in data"
-                    :key='k'>{{v+1+'F'}}</div>
+                    :key='k'>
+                    <template v-if="k < 5">
+                        <div class="storey-item" :class="{active: floor === k}">{{v+1+'F'}}</div>
+                    </template>
+                </div>
+            </div>
+        </div>
+        <div class="guide-storey" style="margin-left: 10px">
+            <div class="storey-content">
+                <div
+                    @click="imgHandler(k)"
+                    v-for="(v, k) in data"
+                    :key='k'>
+                    <template v-if="k > 4">
+                        <div class="storey-item" :class="{active: floor === k}">{{v+1+'F'}}</div>
+                    </template>
+                </div>
             </div>
         </div>
     </div>
@@ -50,6 +66,8 @@ export default {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
 }
 .guide-picture-content{
     padding-bottom: 30px;
@@ -88,6 +106,10 @@ export default {
 }
 .guide-storey{
     margin-top: 20px;
-    height: 600px;
+    // height: 600px;
+}
+.qr-img{
+    width: 200px;
+    height: 200px;
 }
 </style>
